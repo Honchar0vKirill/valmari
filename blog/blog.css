@@ -1,0 +1,157 @@
+body hr {
+  height: 67px;
+  background: #D9D9D9;
+}
+body a {
+  text-decoration: none;
+  color: #424242;
+}
+body .logo {
+  margin-left: 5%;
+}
+body header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header .header-round {
+  width: 63px;
+  height: 63px;
+  background-color: #DDF4CB;
+  border-radius: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 150px;
+}
+body header .header-round svg {
+  width: 36px;
+  height: 36px;
+  margin-right: 75%;
+}
+body header .header-number {
+  position: absolute;
+  font-family: "Comfortaa", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 20px;
+  color: #424242;
+  margin-left: 20%;
+}
+body header .header-social {
+  margin-left: 7%;
+}
+body header .header-social img {
+  margin-left: 20px;
+}
+body header hr {
+  margin-left: 5%;
+}
+body header .ukranian {
+  margin-right: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header .ukranian .ukraine {
+  margin-right: 25%;
+}
+body header .ukranian p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 29px;
+  color: #424242;
+}
+body header svg {
+  width: 30px;
+  height: 17px;
+  margin-left: 75%;
+  position: absolute;
+}
+body .under-main {
+  margin-top: -3%;
+}
+body .under-main hr {
+  width: 100%;
+  height: 6px;
+  border: none;
+  background-color: #94B06F;
+}
+body nav {
+  margin-top: 43px;
+  margin-left: 50px;
+  width: 1304px;
+}
+body nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+body nav ul .nav-list {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 20px;
+  color: #424242;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 494px;
+  height: 63px;
+}
+.info p {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 20px;
+  color: #424242;
+}
+
+.social-media {
+  width: 133px;
+  height: 33px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.promo {
+  width: 100%;
+  height: 773px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.promo h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 79px;
+  color: #55A630;
+}
+.promo img {
+  width: 102%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 409px;
+  height: 78px;
+}/*# sourceMappingURL=blog.css.map */
