@@ -16,37 +16,6 @@ body header {
   justify-content: center;
   align-items: center;
 }
-body header .header-round {
-  width: 63px;
-  height: 63px;
-  background-color: #DDF4CB;
-  border-radius: 63px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 150px;
-}
-body header .header-round svg {
-  width: 36px;
-  height: 36px;
-  margin-right: 75%;
-}
-body header .header-number {
-  position: absolute;
-  font-family: "Comfortaa", cursive;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 20px;
-  color: #424242;
-  margin-left: 20%;
-}
-body header .header-social {
-  margin-left: 7%;
-}
-body header .header-social img {
-  margin-left: 20px;
-}
 body header hr {
   margin-left: 5%;
 }
@@ -92,13 +61,24 @@ body nav ul {
   justify-content: space-around;
   list-style: none;
 }
-body nav ul .nav-list {
+body nav ul .nav-list a {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 22px;
   line-height: 20px;
   color: #424242;
+}
+body nav ul .nav-list a:hover {
+  color: #55A630;
+  transition-duration: 2s;
+}
+body .active {
+  color: #55A630 !important;
+}
+body .active:hover {
+  color: #424242 !important;
+  transition-duration: 2s;
 }
 
 .info {
@@ -151,7 +131,59 @@ body nav ul .nav-list {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
   width: 409px;
   height: 78px;
+}
+
+.promo-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-right: -110%;
+}
+.promo-text .main-promo-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+}
+.promo-text pre {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  margin-top: -2%;
+}
+.promo-text .promo-text-details {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #55A630;
+  margin-top: -5%;
+}
+
+.interesting-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 2688px;
+}
+.interesting-information h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 79px;
+  color: black;
 }/*# sourceMappingURL=blog.css.map */
