@@ -28,7 +28,7 @@ body header .logo {
   justify-content: center;
 }
 body header .logo img {
-  margin-top: -30%;
+  margin-top: -15%;
 }
 body header .logo .logo-text {
   font-family: "Roboto", sans-serif;
@@ -73,13 +73,13 @@ body header hr {
   margin-left: 15%;
 }
 body header .ukranian {
-  margin-right: 20%;
+  margin-right: 17%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 body header .ukranian .ukraine {
-  margin-right: 25%;
+  margin-right: 10%;
 }
 body header .ukranian p {
   font-family: "Montserrat", sans-serif;
@@ -95,10 +95,10 @@ body header svg {
   margin-left: 75%;
   position: absolute;
 }
-body .under-main {
+body .under-header {
   margin-top: -3%;
 }
-body .under-main hr {
+body .under-header hr {
   width: 100%;
   height: 6px;
   border: none;
@@ -121,7 +121,17 @@ body nav ul .nav-list {
   line-height: 20px;
   color: #424242;
 }
-body nav ul .main-nav-list {
+body nav ul .nav-list a {
+  transition-duration: 2s;
+}
+body nav ul .nav-list a:hover {
+  color: #55A630;
+  transition-duration: 1s;
+}
+body nav ul .nav-list a:hover .main-nav-list .a {
+  color: #424242;
+}
+body nav ul .main-nav-list .a {
   color: #55A630;
 }
 body main {
@@ -136,7 +146,7 @@ body main .up-main {
   width: 100%;
   height: 600px;
   display: flex;
-  margin-top: 40px;
+  margin-top: 140px;
   margin-left: 200px;
 }
 body main .up-main .first-up-main-block .up-main-wrapper .up-main-free {
