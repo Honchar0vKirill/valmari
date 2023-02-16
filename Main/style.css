@@ -121,18 +121,19 @@ body nav ul .nav-list {
   line-height: 20px;
   color: #424242;
 }
-body nav ul .nav-list a {
+body nav ul .nav-list .nav-list-item {
   transition-duration: 2s;
 }
-body nav ul .nav-list a:hover {
+body nav ul .nav-list .nav-list-item:hover {
   color: #55A630;
   transition-duration: 1s;
 }
-body nav ul .nav-list a:hover .main-nav-list .a {
-  color: #424242;
-}
-body nav ul .main-nav-list .a {
+body nav ul .main-nav-list {
   color: #55A630;
+  cursor: pointer;
+}
+body nav ul .main-nav-list:hover {
+  color: #424242;
 }
 body main {
   width: 100%;
