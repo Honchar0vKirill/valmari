@@ -1,0 +1,57 @@
+//slideout and button controls
+//висувні та кнопки керування
+
+
+//background of the button
+//фон кнопки
+$button1-color: #CCCC;
+
+//backgound of the slideout
+//фон слайда
+$slideout1-color: #CCCC;
+
+//width of button and slideout below it
+//ширина кнопки та висувна частина під нею
+$slideout1-button1-width: 200px;
+
+//height of the slideout
+//висота висувного отвору
+$slideout1-height: 200px;
+
+//the negative value of "$slideout1-height"
+//від'ємне значення "$slideout1-height"
+$slideout1-height-negative: -200px;
+
+//the height of the button
+//висота кнопки
+$button1-height: 50px;
+
+
+.main {
+    width: 100px;
+    height: 100px;
+    &:hover {
+        //the id of slideout
+        .main_overflow_slideout {
+            transition-duration: 0.5s;
+            transform: translateY(-16px);
+        }
+    }   
+    &_button {
+        width: $slideout1-button1-width;
+        height: $button1-height;
+        background: $button1-color;
+    }
+    &_overflow   {
+        overflow: hidden;
+        width: $slideout1-button1-width;
+        height: $slideout1-height;
+        &_slideout {
+            transition-duration: 0.5s;
+            transform: translateY($slideout1-height-negative);
+            width: 100%;
+            height: 100%;
+            background: $slideout1-color;
+        }
+    }
+}
