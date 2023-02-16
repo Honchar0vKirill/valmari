@@ -112,33 +112,30 @@ body {
         margin-top: 43px;
         margin-left: 50px;
      width: 1304px;
-     ul {
+    ul{
         display: flex;
         justify-content: space-around;
-        .nav-list {
+    .nav-list {
             font-family: $montserrat;
             font-style: normal;
             font-weight: 300;
             font-size: 22px;
             line-height: 20px;
             color: #424242;
-            a {
+             .nav-list-item{
                 transition-duration: 2s;
                 &:hover {
                     color: #55A630;
                     transition-duration: 1s;
-                    .main-nav-list {
-                        .a {
-                            color: #424242;
-                        }
-                    }
                 }
             }
         }
-        .main-nav-list {
-            .a {
+        .main-nav-list{ 
                 color: #55A630;
-            }
+                cursor: pointer;
+       }
+       .main-nav-list:hover{
+        color: #424242;
        }
      }
  }
