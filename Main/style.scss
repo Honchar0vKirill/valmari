@@ -3,8 +3,9 @@ $montserrat: 'Montserrat', sans-serif;
 $roboto: 'Roboto', sans-serif;
 body {
     hr {
-        height: 67px;
+        width: 67px;
         background: #D9D9D9;
+        border: none;
         }
     a{
         text-decoration: none;
@@ -67,6 +68,7 @@ body {
             margin-left: 20%;
         }
         .header-social {
+            width: 200px;
             margin-left: 7%;
             img {
                 margin-left: 20px;
@@ -150,7 +152,7 @@ body {
         width: 100%;
         height: 600px;
         display: flex;
-        margin-top: 140px;
+        margin-top: 1280px;
         margin-left: 200px;
     .first-up-main-block {
         .up-main-wrapper {
@@ -260,8 +262,139 @@ body {
                 line-height: 28px;
                 text-align: center;
                 color: #424242;
-                margin-bottom: 130px;
+            }
+            .main-slider {
+                margin-top: 130px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                svg {
+                    width: 14px;
+                    height: 21px;
+                }
+                .doctor-block {
+                    width: 356px;
+                    height: 574px;   
+                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                    margin-left: 50px;
+                    margin-right: 50px;
+                    border-radius: 20px;
+                    padding-left: 12px;
+                    .doc-gray-text {
+                        color: #424242;
+                        margin-top: 12px;
+                        font-family: $montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 22px;
+                    }
+                    .doc-name {
+                        color: #4340B4;
+                        font-family: $montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 100%;
+                        letter-spacing: -0.4px;
+                        margin-top: 14px;
+                        margin-bottom: 5px;
+                    }
+                    .doc-information {
+                        display: flex;
+                        justify-content: space-between;
+                        img {
+                            margin-right: 20px;
+                        }
+                    }  
+        .doc-inf {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 121px;
+            img {
+                margin-left: 50px;
+            }
+            .doc-hr {
+                background: #4340B4;
+                transform: rotate(90deg);
+                width: 102px;
+                height: 2px;
+                position: absolute;
+                left: -20px;
+                margin-top: 23px;
+            }
+            .short-inf {
+                margin-left: 30px;
+                color: #424242;   
+                font-family: $montserrat;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 12px;
+                br {
+                    margin-top: 10px;
+                }
+            }
+        }
+        .write-to-doctor {
+            margin-left: -12px;
+            width: 368px;
+            height: 55px;
+            border-radius: 20px;
+            background-color: #4340B4;
+            color: white;
+            border: none;
+            font-family: $montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+        }
+        .one {
+            color: #55A630;
+        }
+        .doc-hre {
+            background-color: #55A630;
+            transform: rotate(90deg);
+            width: 102px;
+            height: 2px;
+            position: absolute;
+            left: -20px;
+            margin-top: 23px;
+        }
+        .doc-hrs {
+            background-color: #00A896;
+            transform: rotate(90deg);
+            width: 102px;
+            height: 2px;
+            position: absolute;
+            left: -20px;
+            margin-top: 23px;
+        }
+        .doc-one {
+            background-color: #55A630;
+        }
+        .doc-two {
+            color: #00A896;
+        }
+        .two {
+            background-color: #00A896;
+        }
             }
         }
     }
+    .decoration {
+        margin-top: -100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .dots {
+            width: 138px;
+            height: 15px;
+        }
+    }
  }
+}
