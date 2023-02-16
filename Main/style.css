@@ -146,7 +146,7 @@ body main .up-main {
   width: 100%;
   height: 600px;
   display: flex;
-  margin-top: 140px;
+  margin-top: 740px;
   margin-left: 200px;
 }
 body main .up-main .first-up-main-block .up-main-wrapper .up-main-free {
@@ -247,5 +247,23 @@ body main .upper-main .our-doctors {
   line-height: 28px;
   text-align: center;
   color: #424242;
-  margin-bottom: 130px;
+}
+body main .upper-main .main-slider {
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .upper-main .main-slider svg {
+  width: 14px;
+  height: 21px;
+}
+body main .upper-main .main-slider .doctor-block {
+  background-color: red;
+  width: 368px;
+  height: 574px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
