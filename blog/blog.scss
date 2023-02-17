@@ -22,6 +22,9 @@
 $comfortaa:'Comfortaa', cursive;
 $montserrat: 'Montserrat', sans-serif;
 $roboto: 'Roboto', sans-serif;
+.header-mobile{
+    display: none;
+}
 body {
     hr {
         height: 67px;
@@ -369,4 +372,62 @@ p{
     color: #FFFFFF;    
     width: 100%;
     text-align: center;
+}
+@media screen and (max-width: 450px) {
+.info{
+    display: none;
+}
+.logo-desktop{
+    display: none;
+}
+hr{
+    display: none;
+}
+.ukranian{
+    display: none;
+}
+.ukraine{
+    display: none;
+}
+.ukr-lang{
+    display: none;
+}
+svg{
+    display: none;
+}
+.under-main{
+    display: none;
+}
+nav{
+    display: none;
+}
+.header-mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    height: 50px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+    margin-top: 100%;
+}
 }

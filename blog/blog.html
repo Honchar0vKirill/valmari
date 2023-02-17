@@ -10,9 +10,20 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <a href="../Main/index.html"><img src="../images/logo.png"></a>
+        <div class="header-mobile">
+            <a href="../Main/index.html"><img src="../images/logo.png" class="logo"></a>
+            <div class="dropdown">
+                <a href="#" class="mainmenubtn"><img src="../images/menu.png"></a>
+                <div class="dropdown-child">
+                    <a href="#">Головна</a>
+                    <a href="#">Про нас</a>
+                    <a href="#">Акції</a>
+                    <a href="#">Магазин</a>
+                    <a href="#">Блог</a>
+                  </div>
+            </div>
         </div>
+        <img src="../images/logo.png" class="logo-desktop">
         <hr>
             <div class="info">
                 <img src="../images/phone-number.png">
@@ -26,7 +37,7 @@
         <hr>
        <div class="ukranian">
           <img class="ukraine" src="../images/ukraine.png" alt="ukraine">
-          <p>Українська</p>
+          <p class="ukr-lang">Українська</p>
        </div>
         <svg>
           <use xlink:href="../images/sprite.svg#arrow-down"></use>
