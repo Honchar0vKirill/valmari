@@ -1,5 +1,5 @@
 body {
-  height: 4606px;
+  height: 4000px;
 }
 body .hrheader {
   height: 67px;
@@ -578,7 +578,7 @@ main .action2_text_btn_p {
 .breceti {
   display: flex;
   width: 1612px;
-  height: 640px;
+  height: 1000px;
   margin-left: 250px;
   margin-top: 100px;
 }
@@ -692,8 +692,7 @@ main .action2_text_btn_p {
 }
 
 footer {
-  position: absolute;
-  margin-top: 260%;
+  margin-top: 6000%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -745,6 +744,7 @@ footer {
   color: #FFFFFF;
   width: 100%;
   text-align: center;
+  margin-top: 20px;
 }
 .ftr-head p {
   font-family: "Montserrat";
@@ -757,6 +757,7 @@ footer {
   text-align: center;
   color: #FFFFFF;
   text-align: center;
+  margin-top: 20px;
 }
 
 .copyright {
@@ -768,4 +769,12 @@ footer {
   color: #FFFFFF;
   width: 100%;
   text-align: center;
+}
+
+.footer {
+  display: flex;
+}
+
+.iframe {
+  width: 790px;
 }/*# sourceMappingURL=style.css.map */

@@ -2,7 +2,7 @@ $comfortaa:'Comfortaa', cursive;
 $montserrat: 'Montserrat', sans-serif;
 $roboto: 'Roboto', sans-serif;
 body {
-    height: 4606px;
+    height: 4000px;
     .hrheader{
         height: 67px;
         background: #D9D9D9;
@@ -668,7 +668,7 @@ color: #424242;
 .breceti{
     display: flex;
     width: 1612px;
-    height: 640px;
+    height: 1000px;
     
     margin-left:250px;
     margin-top: 100px;
@@ -806,8 +806,8 @@ color: #424242;
 }
 
 footer{
-    position: absolute;
-    margin-top: 260%;
+    
+    margin-top: 6000%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -838,7 +838,7 @@ footer{
                 font-weight: 500;
                 font-size: 18px;
                 line-height: 15px;
-                color: #FFFFFF;  
+                color: #FFFFFF;
                 transition-duration: 2s;
                 &:hover {
                     color: #55A630;
@@ -857,7 +857,8 @@ footer{
             line-height: 20px;
             color: #FFFFFF;   
             width: 100%;  
-            text-align: center;       
+            text-align: center; 
+            margin-top: 20px;     
 }
 p{
     font-family: 'Montserrat';
@@ -870,6 +871,7 @@ p{
     text-align: center;
     color: #FFFFFF;  
     text-align: center;  
+    margin-top: 20px;
 }
 }
 .copyright{
@@ -883,4 +885,9 @@ p{
     text-align: center;
 }
 
-
+.footer{
+    display: flex;
+}
+.iframe{
+    width: 790px;
+}
