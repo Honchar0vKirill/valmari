@@ -32,6 +32,9 @@ $roboto: 'Roboto', sans-serif;
 .header-mobile{
     display: none;
 }
+.slider-mobile{
+    display: none;
+}
 body {
     hr {
         height: 67px;
@@ -247,6 +250,10 @@ main{
         @include card-text();
         color: #55A630;
         margin-bottom: 3%;
+    }
+    img{
+        width: 367px;
+        height: 183px;
     }
 }
 .form{
@@ -497,6 +504,9 @@ footer{
 }
 .mobile-invisible{
     display: none;
+}
+iframe{
+    width: 200px;
 }
 }
 .mySlides {
