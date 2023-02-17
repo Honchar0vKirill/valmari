@@ -1,6 +1,11 @@
 $comfortaa:'Comfortaa', cursive;
 $montserrat: 'Montserrat', sans-serif;
 $roboto: 'Roboto', sans-serif;
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 body {
     hr {
         width: 67px;
@@ -14,9 +19,7 @@ body {
     header {
         width: 100%;
         height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex();
         .logo {
             top: 30px;
             left: 50px;
@@ -26,10 +29,8 @@ body {
             border-radius: 98px;
             background: #d7f4c1;
             border: #88AC6B solid 4px;
-            display: flex;
+            @include flex();
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
           img {
           margin-top: -15%;
           }
@@ -47,9 +48,7 @@ body {
             height: 63px;
             background-color: #DDF4CB;
             border-radius: 63px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex();
             margin-right: 150px;
             svg {
                 width: 36px;
@@ -79,9 +78,7 @@ body {
         }
        .ukranian {
         margin-right: 17%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex();
         .ukraine {
             margin-right: 10%;
         }
@@ -144,15 +141,14 @@ body {
  main {
     width: 100%;
     height: 1000px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex();
     flex-direction: column;
     .up-main {
         width: 100%;
         height: 600px;
         display: flex;
-        margin-top: 1280px;
+        position: relative;
+        margin-top: 5300px;
         margin-left: 200px;
     .first-up-main-block {
         .up-main-wrapper {
@@ -265,9 +261,7 @@ body {
             }
             .main-slider {
                 margin-top: 130px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include flex();
                 svg {
                     width: 14px;
                     height: 21px;
@@ -392,9 +386,153 @@ body {
         justify-content: space-between;
         align-items: center;
         .dots {
+            margin-top: -200px;
             width: 138px;
             height: 15px;
         }
+    }
+    .middle-main {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 224px;
+        @include flex();
+        .img-chapter {
+           margin-left: -8%;
+           margin-right: 320px;
+        }
+        .about-us-chapter {
+            margin-left: -10%;
+            margin-top: 5%;
+            .about-us-text {
+                color: #858585;
+                margin-bottom: 25px;
+                font-family: $montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 28px;
+            }
+            .min-inf {
+                font-family: $montserrat;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 107%;
+                letter-spacing: -0.4px;
+                color: #424242;
+                width: 452px;
+                strong {
+                    color: #55A630;
+                }
+            }
+            .full-inform {
+                margin-top: 180px;
+            }
+            .full-inf {
+                font-family: $montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 29px;
+                color: #424242;
+                width: 452px;
+                margin-bottom: 152px;
+            }
+            .text-inf {
+                margin-top: -100px;
+            }
+            .more {
+                margin-left: 130px;
+                @include flex ();
+                .more-text {
+                    color: #55A630;   
+                    font-family: $montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 28px;
+                }
+                svg {
+                    margin-left: 48px;
+                    width: 108px;
+                }
+            }
+        }
+    }
+    .central-main {
+        width: 100%;
+        .central-hr {
+            @include flex ();
+            margin-bottom: 224px;
+            hr {
+                width: 771px;
+                background-color: #55A630;
+                height: 4px;
+                border-radius: 7px;
+            }
+        }
+        .news {
+         display: flex;   
+         .news-text {
+            @include flex ();
+            flex-direction: column;
+            margin-left: 83px;
+            .new-news {
+                width: 725px;
+                color: #55A630;
+                font-family: $montserrat;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 115%;
+                letter-spacing: -0.4px;
+                margin-bottom: 52px;
+            }
+            .lorem {
+                p {
+                    width: 639px;
+                    color: #424242;
+                    font-family: $montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 31px;
+                    opacity: 0.8;
+                }
+                .subscribe {
+                    margin-bottom: 40px;
+                }
+                .lorem-text {
+                    margin-bottom: 40px;
+                }
+            }
+            .register {
+                background-color: #55A630;
+                color: white;
+                width: 385px;
+                height: 75px;
+                border-radius: 20px;
+                border: none;
+                font-family: $montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 23px;
+                line-height: 26px;
+            }
+         }
+         .new-image {
+            margin-left: 60px;
+         }
+        }
+        .news-decoration {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 90px;
+            .upper {
+                margin-top: -20px;
+            }
+         }
     }
  }
 }
