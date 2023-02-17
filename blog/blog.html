@@ -68,75 +68,121 @@
         </div>
         <div class="interesting-information">
             <h1>Корисні матеріали</h1>
-            <div class="material-cards">
-                <div class="card">
-                    <div>
-                        <img src="../images/vinirs.png">
-                        <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+            <div class="slider-mobile">
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                      <img src="/./images/vinirs.png" style="width:100%">
+                      <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                      <a href="#" style="color: #55A630;">Читати далі</a>
                     </div>
-                    <a href="#">Читати далі</a>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="../images/vinirs.png">
+                    <div class="mySlides">
+                        <img src="../images/viniry-lviv-ciny.jpeg" style="width:100%"> 
                         <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                        <a href="#" style="color: #55A630;">Читати далі</a>
                     </div>
-                    <a href="#">Читати далі</a>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="../images/vinirs.png">
+                    <div class="mySlides">
+                        <img src="../images/vinirs3.jpeg" style="width:100%">
                         <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                        <a href="#" style="color: #55A630;">Читати далі</a>
                     </div>
-                    <a href="#">Читати далі</a>
-                </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                  </div>
+                  <script>
+                    var slideIndex = 0;
+                    showSlides();
+                    
+                    function showSlides() {
+                      var i;
+                      var slides = document.getElementsByClassName("mySlides");
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none"; 
+                      }
+                      slideIndex++;
+                      if (slideIndex > slides.length) {slideIndex = 1} 
+                      slides[slideIndex-1].style.display = "block"; 
+                      setTimeout(showSlides, 2000); // Change image every 2 seconds
+                    
+                    }
+                  </script>
             </div>
-            <div class="material-cards">
-                <div class="card">
-                    <div>
-                        <img src="../images/vinirs.png">
-                        <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                <div class="mobile-invisible">
+                    <div class="material-cards">
+                        <div class="card">
+                            <div>
+                                <img src="../images/vinirs.png">
+                                <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                            </div>
+                            <a href="#">Читати далі</a>
+                        </div>
+                        <div class="card">
+                            <div>
+                                <img src="../images/vinirs.png">
+                                <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                            </div>
+                            <a href="#">Читати далі</a>
+                        </div>
+                        <div class="card">
+                            <div>
+                                <img src="../images/vinirs.png">
+                                <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                            </div>
+                            <a href="#">Читати далі</a>
+                        </div>
                     </div>
-                    <a href="#">Читати далі</a>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="../images/vinirs.png">
-                        <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                    <div class="material-cards">
+                        <div class="card">
+                            <div>
+                                <img src="../images/vinirs.png">
+                                <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                            </div>
+                            <a href="#">Читати далі</a>
+                        </div>
+                        <div class="card">
+                            <div>
+                                <img src="../images/vinirs.png">
+                                <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                            </div>
+                            <a href="#">Читати далі</a>
+                        </div>
+                        <div class="card">
+                            <div>
+                                <img src="../images/vinirs.png">
+                                <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                            </div>
+                            <a href="#">Читати далі</a>
+                        </div>
                     </div>
-                    <a href="#">Читати далі</a>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="../images/vinirs.png">
-                        <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                    <div class="material-cards">
+                        <div class="card">
+                            <div>
+                                <img src="../images/vinirs.png">
+                                <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                            </div>
+                            <a href="#">Читати далі</a>
+                        </div>
+                        <div class="card">
+                            <div>
+                                <img src="../images/vinirs.png">
+                                <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                            </div>
+                            <a href="#">Читати далі</a>
+                        </div>
+                        <div class="card">
+                            <div>
+                                <img src="../images/vinirs.png">
+                                <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
+                            </div>
+                            <a href="#">Читати далі</a>
+                        </div>
                     </div>
-                    <a href="#">Читати далі</a>
                 </div>
-            </div>
-            <div class="material-cards">
-                <div class="card">
-                    <div>
-                        <img src="../images/vinirs.png">
-                        <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
-                    </div>
-                    <a href="#">Читати далі</a>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="../images/vinirs.png">
-                        <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
-                    </div>
-                    <a href="#">Читати далі</a>
-                </div>
-                <div class="card">
-                    <div>
-                        <img src="../images/vinirs.png">
-                        <p>Вініри : для чого потрібні, скільки коштують та чи актуальні вони? Відповідаємо на запитання</p>
-                    </div>
-                    <a href="#">Читати далі</a>
-                </div>
-            </div>
         </div>
         <div class="form">
             <h1>Запишіться на прийом</h1>
@@ -149,7 +195,7 @@
         </div>
     </main>
     <footer>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2742.0896075116243!2d36.22517791567522!3d49.991243428226895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0fa755e45e7%3A0x65ec04f8b0410828!2z0LLRg9C70LjRhtGPINCa0LvQvtGH0LrRltCy0YHRjNC60LAsIDMsINCl0LDRgNC60ZbQsiwg0KXQsNGA0LrRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDYxMDAw!5e1!3m2!1suk!2sua!4v1676570791220!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2742.0896075116243!2d36.22517791567522!3d49.991243428226895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0fa755e45e7%3A0x65ec04f8b0410828!2z0LLRg9C70LjRhtGPINCa0LvQvtGH0LrRltCy0YHRjNC60LAsIDMsINCl0LDRgNC60ZbQsiwg0KXQsNGA0LrRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDYxMDAw!5e1!3m2!1suk!2sua!4v1676570791220!5m2!1suk!2sua" width="200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="ftr-info">
             <div class="ftr-head">
                 <h1>+65 11.191.858</h1>
