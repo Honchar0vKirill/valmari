@@ -24,4 +24,25 @@
 <symbol viewBox="0 0 59 8" id="arrow">
 <path d="M58.3536 4.35355C58.5488 4.15829 58.5488 3.84171 58.3536 3.64645L55.1716 0.464466C54.9763 0.269204 54.6597 0.269204 54.4645 0.464466C54.2692 0.659728 54.2692 0.976311 54.4645 1.17157L57.2929 4L54.4645 6.82843C54.2692 7.02369 54.2692 7.34027 54.4645 7.53553C54.6597 7.7308 54.9763 7.7308 55.1716 7.53553L58.3536 4.35355ZM0 4.5H58V3.5L0 3.5L0 4.5Z" fill="#55A630"/>
 </symbol>
+<symbol id="round-arrow" viewBox="0 0 50 50">
+<g filter="url(#filter0_d_150_203)">
+<circle cx="25" cy="22" r="21" fill="#DDF4CB"/>
+</g>
+<path d="M13.6464 21.6464C13.4512 21.8417 13.4512 22.1583 13.6464 22.3536L16.8284 25.5355C17.0237 25.7308 17.3403 25.7308 17.5355 25.5355C17.7308 25.3403 17.7308 25.0237 17.5355 24.8284L14.7071 22L17.5355 19.1716C17.7308 18.9763 17.7308 18.6597 17.5355 18.4645C17.3403 18.2692 17.0237 18.2692 16.8284 18.4645L13.6464 21.6464ZM36 21.5L14 21.5V22.5L36 22.5V21.5Z" fill="#55A630"/>
+<defs>
+<filter id="filter0_d_150_203" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="3"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_150_203"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_150_203" result="shape"/>
+</filter>
+</defs>
+</symbol>
+<symbol id="arrows"  viewBox="0 0 36 16">
+<path d="M35.184 8.89412C35.5745 8.5036 35.5745 7.87043 35.184 7.47991L28.8201 1.11595C28.4295 0.725422 27.7964 0.725422 27.4058 1.11595C27.0153 1.50647 27.0153 2.13964 27.4058 2.53016L33.0627 8.18701L27.4058 13.8439C27.0153 14.2344 27.0153 14.8676 27.4058 15.2581C27.7964 15.6486 28.4295 15.6486 28.8201 15.2581L35.184 8.89412ZM0.678833 9.18701L34.4769 9.18701L34.4769 7.18701L0.678833 7.18701L0.678833 9.18701Z" fill="white"/>
+</symbol>
 </svg>

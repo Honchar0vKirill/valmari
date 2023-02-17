@@ -69,17 +69,19 @@ body nav ul .nav-list a {
   font-size: 22px;
   line-height: 20px;
   color: #424242;
+  transition-duration: 2s;
 }
 body nav ul .nav-list a:hover {
   color: #55A630;
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 body .active {
   color: #55A630 !important;
+  transition-duration: 2s;
 }
 body .active:hover {
   color: #424242 !important;
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 
 main {
@@ -333,12 +335,19 @@ footer {
 }
 .ftr-info ul li {
   list-style: none;
+}
+.ftr-info ul li a {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 15px;
   color: #FFFFFF;
+  transition-duration: 2s;
+}
+.ftr-info ul li a:hover {
+  color: #55A630;
+  transition-duration: 1s;
 }
 
 .ftr-head h1 {

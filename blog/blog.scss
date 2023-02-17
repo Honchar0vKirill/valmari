@@ -93,9 +93,10 @@ body {
                 font-size: 22px;
                 line-height: 20px;
                 color: #424242;
+                transition-duration: 2s;
                 &:hover{
                     color: #55A630;
-                    transition-duration: 2s;
+                    transition-duration: 1s;
                 }
             }
         }
@@ -103,9 +104,10 @@ body {
  }
  .active{
     color:#55A630 !important;
+    transition-duration: 2s;
     &:hover{
         color:#424242 !important;
-        transition-duration: 2s;
+        transition-duration: 1s;
     }
  }
 }
@@ -317,13 +319,20 @@ footer{
         flex-direction: column;
         justify-content: space-around;
         li{
-            list-style: none;
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 15px;
-            color: #FFFFFF;            
+                            list-style: none;
+            a {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 15px;
+                color: #FFFFFF;  
+                transition-duration: 2s;
+                &:hover {
+                    color: #55A630;
+                    transition-duration: 1s;
+                }  
+            }
         }
     }
 }

@@ -123,9 +123,22 @@ body {
             font-size: 22px;
             line-height: 20px;
             color: #424242;
+            .nav-list-item{
+                transition-duration: 2s;
+                &:hover {
+                    color: #55A630;
+                    transition-duration: 1s;
+                }
+            }
         }
         .main-nav-list {
             color: #55A630;
+            cursor: pointer;
+            transition-duration: 2s;
+            &:hover {
+                color: #424242;
+                transition-duration: 1s;
+            }
         }
      }
  }
