@@ -141,7 +141,13 @@ body nav ul .main-nav-list:hover {
   transition-duration: 1s;
 }
 
-.special {
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .special {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -151,18 +157,16 @@ body nav ul .main-nav-list:hover {
   margin-top: 100px;
   color: #424242;
 }
-
-.actionback {
+main .actionback {
   background: url(./images/coldatpngs.png);
 }
-
-.action1 {
+main .action1 {
   width: 1612px;
   height: 640px;
-  margin-left: 200px;
+  margin-left: 100px;
   margin-top: 100px;
 }
-.action1_block {
+main .action1_block {
   box-sizing: border-box;
   position: absolute;
   width: 719px;
@@ -172,11 +176,11 @@ body nav ul .main-nav-list:hover {
   border: 1px solid #46F233;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.action1_block_logo {
+main .action1_block_logo {
   margin-left: 30%;
   margin-top: 40px;
 }
-.action1_block_text {
+main .action1_block_text {
   width: 350px;
   height: 200px;
   margin-left: 270px;
@@ -190,18 +194,18 @@ body nav ul .main-nav-list:hover {
   color: #509133;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.action1_block_text::before {
+main .action1_block_text::before {
   position: absolute;
   content: "";
   width: 719px;
   height: 640px;
 }
-.action1_text {
+main .action1_text {
   width: 892px;
   height: 640px;
-  margin-left: 720px;
+  margin-left: 620px;
 }
-.action1_text_h {
+main .action1_text_h {
   width: 515px;
   height: 63px;
   margin-left: 25%;
@@ -215,7 +219,7 @@ body nav ul .main-nav-list:hover {
   text-transform: uppercase;
   color: #55A630;
 }
-.action1_text_p {
+main .action1_text_p {
   width: 650px;
   height: 270px;
   margin-left: 20%;
@@ -227,7 +231,7 @@ body nav ul .main-nav-list:hover {
   line-height: 55px;
   color: #000000;
 }
-.action1_text_p2 {
+main .action1_text_p2 {
   width: 746px;
   height: 58px;
   margin-left: 20%;
@@ -239,7 +243,7 @@ body nav ul .main-nav-list:hover {
   line-height: 55px;
   color: #000000;
 }
-.action1_text_btn {
+main .action1_text_btn {
   box-sizing: border-box;
   width: 575px;
   height: 94px;
@@ -249,10 +253,10 @@ body nav ul .main-nav-list:hover {
   background: radial-gradient(181.49% 3554.55% at -39.78% 50%, #66F833 0%, rgba(217, 217, 217, 0) 100%);
   border-radius: 50px;
 }
-.action1_text_btn_btn:hover {
+main .action1_text_btn_btn:hover {
   box-shadow: 0px 4px 4px rgba(1, 1, 1, 0.25);
 }
-.action1_text_btn_p {
+main .action1_text_btn_p {
   width: 489px;
   height: 42px;
   margin-left: 45px;
@@ -263,15 +267,14 @@ body nav ul .main-nav-list:hover {
   line-height: 42px;
   color: #000000;
 }
-
-.action2 {
+main .action2 {
   display: flex;
   width: 1612px;
   height: 640px;
-  margin-left: 200px;
+  margin-left: 100px;
   margin-top: 100px;
 }
-.action2_block {
+main .action2_block {
   box-sizing: border-box;
   width: 719px;
   height: 640px;
@@ -281,11 +284,11 @@ body nav ul .main-nav-list:hover {
   border: 1px solid #46F233;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.action2_block_logo {
+main .action2_block_logo {
   margin-top: 40px;
   margin-left: 20px;
 }
-.action2_block_text {
+main .action2_block_text {
   width: 700px;
   height: 29px;
   margin-left: 54px;
@@ -297,20 +300,20 @@ body nav ul .main-nav-list:hover {
   line-height: 29px;
   color: #509133;
 }
-.action2_block_text::before {
+main .action2_block_text::before {
   position: absolute;
   content: "";
   width: 719px;
   height: 640px;
 }
-.action2_block_hr {
+main .action2_block_hr {
   width: 550px;
   height: 0px;
   margin-left: 65px;
   margin-top: 40px;
   border: 2px solid #55A630;
 }
-.action2_block_ptext1 {
+main .action2_block_ptext1 {
   width: 233px;
   height: 29px;
   margin-left: 39px;
@@ -322,13 +325,13 @@ body nav ul .main-nav-list:hover {
   line-height: 29px;
   color: #3B7720;
 }
-.action2_block_ptext1::before {
+main .action2_block_ptext1::before {
   position: absolute;
   content: "";
   width: 719px;
   height: 640px;
 }
-.action2_block_pdeny {
+main .action2_block_pdeny {
   width: 134px;
   height: 29px;
   margin-left: 68px;
@@ -341,18 +344,19 @@ body nav ul .main-nav-list:hover {
   /* identical to box height, or 83% */
   color: #000000;
 }
-.action2_block_hr2 {
+main .action2_block_hr2 {
   width: 153px;
   height: 0px;
   margin-left: 54px;
   margin-top: -15px;
   border: 2px solid #000000;
 }
-.action2_text {
+main .action2_text {
   width: 892px;
   height: 640px;
+  margin-left: -100px;
 }
-.action2_text_h {
+main .action2_text_h {
   width: 515px;
   height: 45px;
   margin-left: 25%;
@@ -366,7 +370,7 @@ body nav ul .main-nav-list:hover {
   text-transform: uppercase;
   color: #55A630;
 }
-.action2_text_p {
+main .action2_text_p {
   width: 650px;
   height: 270px;
   margin-left: 20%;
@@ -380,7 +384,7 @@ body nav ul .main-nav-list:hover {
   align-items: flex-end;
   color: #000000;
 }
-.action2_text_p2 {
+main .action2_text_p2 {
   width: 746px;
   height: 58px;
   margin-left: 20%;
@@ -392,7 +396,7 @@ body nav ul .main-nav-list:hover {
   line-height: 55px;
   color: #000000;
 }
-.action2_text_btn {
+main .action2_text_btn {
   box-sizing: border-box;
   width: 575px;
   height: 94px;
@@ -402,10 +406,10 @@ body nav ul .main-nav-list:hover {
   background: radial-gradient(181.49% 3554.55% at -39.78% 50%, #66F833 0%, rgba(217, 217, 217, 0) 100%);
   border-radius: 50px;
 }
-.action2_text_btn_btn:hover {
+main .action2_text_btn_btn:hover {
   box-shadow: 0px 4px 4px rgba(1, 1, 1, 0.25);
 }
-.action2_text_btn_p {
+main .action2_text_btn_p {
   width: 489px;
   height: 42px;
   margin-left: 45px;
