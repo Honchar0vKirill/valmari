@@ -167,7 +167,8 @@ color: #424242;
 .action1{
     width: 1612px;
     height: 640px;
-    margin-left: 100px;
+    display: flex;
+    margin-left: 250px;
     margin-top: 100px;
     &_block{
         box-sizing: border-box;
@@ -297,7 +298,7 @@ color: #424242;
     width: 1612px;
     height: 640px;
     
-    margin-left:100px;
+    margin-left:250px;
     margin-top: 100px;
     &_block{
         box-sizing: border-box;
@@ -473,5 +474,6 @@ color: #424242;
     }
 }
 }
+
 
 
