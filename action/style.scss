@@ -472,7 +472,113 @@ color: #424242;
             
         }
     }
+ }
 }
+
+.plazmo{
+    display: flex;
+    width: 1612px;
+    height: 640px;
+    
+    margin-left:250px;
+    margin-top: 100px;
+    &_block{
+        box-sizing: border-box;
+
+        width: 719px;
+        height: 640px;
+        left: 130px;
+        top: 1277px;
+        
+        background:url(./images/plazmo.png);
+        border: 1px solid #46F233;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        &_logo{
+            margin-top: 40px;
+            margin-left: 20px;
+        }
+        &_p{
+            position: absolute;
+            width: 347px;
+            height: 132px;
+            margin-top: 56px;
+            margin-left: 61px;
+            
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 80px;
+            line-height:70px;
+            
+            
+            
+            color: #509133;
+        }
+        &_hr{
+            width: 365px;
+            height: 0px;
+            margin-top: 237px;
+            margin-left: 42px;
+            
+            border: 2px solid #55A630;
+        }
+        &_p1{
+            width: 516px;
+            height: 97px;
+            margin-left: 42px;
+            margin-top: 16px;
+            
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 29px;
+            
+            
+            
+            color: #55A630;
+        
+    }
+    &_p2{
+        width: 233px;
+        height: 29px;
+        margin-left: 37px;
+        margin-top: 39px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 61px;
+        line-height: 29px;
+        
+        
+        
+        color: #3B7720;
+    }
+    &_p3{
+        width: 134px;
+        height: 29px;
+        margin-left: 299px;
+        margin-top: -20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 29px;
+        
+        
+        
+        color: #000000;
+    }
+    &_hr2{
+        width: 153px;
+        height: 0px;
+        margin-top: -13px;
+        
+        border: 2px solid #000000;
+
+    }
+  } 
 }
 
 
