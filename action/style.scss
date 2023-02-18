@@ -42,7 +42,7 @@ body {
             color: #424242;
           }
         }
-        .header-round{
+        .header-round {
             width: 63px;
             height: 63px;
             background-color: #DDF4CB;
@@ -965,47 +965,51 @@ button{
     width: 50px;
     margin-top: -160px;
 }
-
 @media screen and (max-width: 450px) {
-    .hr-main{
-       display: none;
-   }
-   header{
-      .header-round{
-       display: none !important;
-      }
-   }
-   .hrheader{
-       display: none;
-   }
-   .strelca{
-       display: none;
-   }
-   .header-svg{
-       display: none;
-   }
-   .header-number{
-       display: none;
-   }
-   .header-social{
-       display: none;
-   }
-   .ukraine{
-       display: none;
-   }
-   .ukraine-p{
-       display: none;
-   }
-   .nav-list{
-       display: none;
-   }
-   .burger-menu{
-       display: block;
-   }
+     .hr-main{
+        display: none;
+    }
+    header{
+       .header-round{
+        display: none !important;
+       }
+    }
+    .hrheader{
+        display: none;
+    }
+
+
+
    
+
+
+
+    .strelca{
+        display: none;
+    }
+    .header-svg{
+        display: none;
+    }
+    .header-number{
+        display: none;
+    }
+    .header-social{
+        display: none;
+    }
+    .ukraine{
+        display: none;
+    }
+    .ukraine-p{
+        display: none;
+    }
+    .nav-list{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+    }
+    
 }
-
-
 
 
 
