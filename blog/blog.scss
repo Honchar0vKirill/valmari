@@ -509,6 +509,10 @@ iframe{
     width: 200px;
 }
 }
+.slider-mobile{
+    display: flex;
+    flex-direction: column;
+}
 .mySlides {
     display: flex;
     justify-content: space-around;
