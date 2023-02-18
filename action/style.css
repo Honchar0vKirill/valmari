@@ -852,7 +852,7 @@ button {
 
 .burger-menu {
   display: none;
-  margin-left: 80%;
+  margin-left: 75%;
   width: 50px;
   margin-top: -160px;
 }
@@ -861,10 +861,10 @@ button {
   .hr-main {
     display: none;
   }
-  .hrheader {
-    display: none;
+  header .header-round {
+    display: none !important;
   }
-  .header-round {
+  .hrheader {
     display: none;
   }
   .strelca {
