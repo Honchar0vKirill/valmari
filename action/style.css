@@ -16,7 +16,7 @@ body header {
   justify-content: center;
   align-items: center;
 }
-body header .logo {
+body header .logo-header-element {
   top: 30px;
   left: 50px;
   position: absolute;
@@ -30,10 +30,10 @@ body header .logo {
   align-items: center;
   justify-content: center;
 }
-body header .logo img {
+body header .logo-header-element img {
   margin-top: -30%;
 }
-body header .logo .logo-text {
+body header .logo-header-element .logo-text {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -101,7 +101,7 @@ body header svg {
 body .under-main {
   margin-top: -3%;
 }
-body .under-main hr {
+body .under-main .hr-main {
   width: 100%;
   height: 6px;
   border: none;
@@ -850,8 +850,45 @@ button {
   cursor: pointer;
 }
 
+.burger-menu {
+  display: none;
+  margin-left: 80%;
+  width: 50px;
+  margin-top: -160px;
+}
+
 @media screen and (max-width: 450px) {
+  .hr-main {
+    display: none;
+  }
   .hrheader {
     display: none;
+  }
+  .header-round {
+    display: none;
+  }
+  .strelca {
+    display: none;
+  }
+  .header-svg {
+    display: none;
+  }
+  .header-number {
+    display: none;
+  }
+  .header-social {
+    display: none;
+  }
+  .ukraine {
+    display: none;
+  }
+  .ukraine-p {
+    display: none;
+  }
+  .nav-list {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */

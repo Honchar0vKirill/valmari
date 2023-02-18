@@ -17,7 +17,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        .logo {
+        .logo-header-element {
             top: 30px;
             left: 50px;
             position: absolute;
@@ -102,7 +102,7 @@ body {
     }
  .under-main {
     margin-top: -3%;
-    hr {
+    .hr-main {
         width: 100%;
         height: 6px;
         border: none;
@@ -958,11 +958,52 @@ p{
 button{
     cursor: pointer;
 }
+.burger-menu{
+    display: none;
+    
+    margin-left: 80%;
+    width: 50px;
+    margin-top: -160px;
+}
 @media screen and (max-width: 450px) {
-     .hrheader{
+     .hr-main{
         display: none;
-     }
-            
+    }
+    .hrheader{
+        display: none;
+    }
+
+
+    .header-round{
+        display: none;
+    }
+
+
+
+    .strelca{
+        display: none;
+    }
+    .header-svg{
+        display: none;
+    }
+    .header-number{
+        display: none;
+    }
+    .header-social{
+        display: none;
+    }
+    .ukraine{
+        display: none;
+    }
+    .ukraine-p{
+        display: none;
+    }
+    .nav-list{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+    }
 }
 
 
