@@ -161,16 +161,16 @@ main .actionback {
   background: url(./images/coldatpngs.png);
 }
 main .action1 {
-  width: 1612px;
-  height: 640px;
+  width: 1451px;
+  height: 656px;
   display: flex;
-  margin-left: 250px;
+  margin-left: 190px;
   margin-top: 100px;
 }
 main .action1_block {
   box-sizing: border-box;
   position: absolute;
-  width: 719px;
+  width: 650px;
   height: 640px;
   top: 478px;
   background: url(./images/Group136.png);
@@ -182,15 +182,15 @@ main .action1_block_logo {
   margin-top: 40px;
 }
 main .action1_block_text {
-  width: 350px;
-  height: 200px;
+  width: 473.99px;
+  height: 349px;
+  margin-top: 40px;
   margin-left: 270px;
-  margin-top: 30px;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 300;
-  font-size: 70px;
-  line-height: 50px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 45px;
   /* or 48% */
   color: #509133;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -204,7 +204,7 @@ main .action1_block_text::before {
 main .action1_text {
   width: 892px;
   height: 640px;
-  margin-left: 620px;
+  margin-left: 550px;
 }
 main .action1_text_h {
   width: 515px;
@@ -269,15 +269,15 @@ main .action1_text_btn_p {
   color: #000000;
 }
 main .action2 {
+  width: 1451px;
+  height: 656px;
   display: flex;
-  width: 1612px;
-  height: 640px;
-  margin-left: 250px;
+  margin-left: 190px;
   margin-top: 100px;
 }
 main .action2_block {
   box-sizing: border-box;
-  width: 719px;
+  width: 650px;
   height: 640px;
   left: 130px;
   top: 1277px;
@@ -424,14 +424,14 @@ main .action2_text_btn_p {
 
 .plazmo {
   display: flex;
-  width: 1612px;
-  height: 640px;
-  margin-left: 250px;
+  width: 1451px;
+  height: 656px;
+  margin-left: 190px;
   margin-top: 100px;
 }
 .plazmo_block {
   box-sizing: border-box;
-  width: 719px;
+  width: 650px;
   height: 640px;
   left: 130px;
   top: 1277px;
@@ -577,14 +577,14 @@ main .action2_text_btn_p {
 
 .breceti {
   display: flex;
-  width: 1612px;
-  height: 1000px;
-  margin-left: 250px;
+  width: 1451px;
+  height: 656px;
+  margin-left: 190px;
   margin-top: 100px;
 }
 .breceti_block {
   box-sizing: border-box;
-  width: 719px;
+  width: 650px;
   height: 640px;
   left: 130px;
   top: 1277px;
@@ -777,4 +777,81 @@ footer {
 
 .iframe {
   width: 790px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 895px;
+  height: 520px;
+  border-radius: 20px;
+}
+.form h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 28px;
+  text-align: center;
+  color: #55A630;
+}
+.form p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #424242;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 426.97px;
+  height: 269px;
+  margin-top: 55px;
+}
+.inputs input {
+  width: 426.22px;
+  height: 60px;
+  border: 1px solid #55A630;
+}
+.inputs button {
+  width: 426.97px;
+  height: 71px;
+  background: #55A630;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 16px;
+  color: #FFFFFF;
+  border: none;
+}
+
+.elipse {
+  position: absolute;
+  margin-left: -1300px;
+  margin-top: -200px;
+}
+
+.elipse2 {
+  position: absolute;
+  margin-left: 80%;
+  margin-top: -100px;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .hrheader {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
