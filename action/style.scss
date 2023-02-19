@@ -943,18 +943,18 @@ p{
     }
 }
 .media-number{
-    position: absolute;
+    
     font-family: "Comfortaa", cursive;
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
     line-height: 20px;
     color: #424242;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 .elipse{
     position: absolute;
-    margin-left: -1300px;
+    margin-left: -11300px;
     margin-top: -200px;
 }
 .elipse2{
@@ -996,9 +996,11 @@ button{
     height: 69px;
   }
   .language-slideout_button_text {
+    position: absolute;
     margin-top: 23px;
     width: 130px;
     height: 35px;
+    margin-left: -100px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
