@@ -80,28 +80,76 @@ body header hr {
   width: 2px;
   height: 67px;
 }
-body header .ukranian {
-  margin-right: 17%;
+body header .language-slideout {
+  background: none;
+  border: none;
+  width: 357px;
+  height: 69px;
+}
+body header .language-slideout:focus .language-slideout_overflow_content {
+  transition-duration: 0.5s;
+  transform: translateY(0px);
+}
+body header .language-slideout:focus .language-slideout_button_arrow {
+  transition-duration: 0.5s;
+  transform: rotate(0deg);
+}
+body header .language-slideout_button {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  width: 357px;
+  height: 69px;
 }
-body header .ukranian .ukraine {
-  margin-right: 10%;
-}
-body header .ukranian p {
-  font-family: "Montserrat", sans-serif;
+body header .language-slideout_button_text {
+  margin-top: 23px;
+  width: 130px;
+  height: 35px;
+  margin-left: 21px;
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 300;
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 24px;
   line-height: 29px;
   color: #424242;
 }
-body header svg {
+body header .language-slideout_button_flag {
+  margin-left: 19px;
+  width: 69px;
+  height: 69px;
+}
+body header .language-slideout_button_arrow {
+  transition-duration: 0.5s;
+  margin-left: 68px;
+  margin-top: 25px;
   width: 30px;
-  height: 17px;
-  margin-left: 75%;
-  position: absolute;
+  height: 18px;
+  transform: rotate(90deg);
+}
+body header .language-slideout_overflow {
+  width: 357px;
+  height: 75px;
+  overflow: hidden;
+}
+body header .language-slideout_overflow_content {
+  transition-duration: 0.5s;
+  transform: translateY(-255px);
+  width: 100%;
+  height: 100%;
+}
+body header .language-slideout_overflow_content .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -130px;
+}
+body header .language-slideout_overflow_content .content p {
+  color: #424242;
+  margin-left: 20px;
+}
+body header .language-slideout_overflow_content .content img {
+  width: 20px;
+  height: 20px;
+  margin-left: 50px;
 }
 body .under-header {
   margin-top: -3%;
