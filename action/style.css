@@ -49,7 +49,7 @@ body header .header-round {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 150px;
+  margin-right: 200px;
 }
 body header .header-round svg {
   width: 36px;
@@ -836,7 +836,13 @@ footer {
 
 .media-number {
   position: absolute;
-  margin-left: 200px;
+  font-family: "Comfortaa", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 20px;
+  color: #424242;
+  margin-left: 20%;
 }
 
 .elipse {

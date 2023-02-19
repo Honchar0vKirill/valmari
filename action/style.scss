@@ -47,10 +47,8 @@ body {
             height: 63px;
             background-color: #DDF4CB;
             border-radius: 63px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-right: 150px;
+            @include flex();
+            margin-right: 300px;
             svg {
                 width: 36px;
                 height: 36px;
@@ -65,10 +63,10 @@ body {
             font-size: 28px;
             line-height: 20px;
             color: #424242;
-            margin-left: 20%;
+            margin-left: -100px;
         }
         .header-social {
-            margin-left: 7%;
+            left: -100px;
             img {
                 margin-left: 20px;
             }
@@ -946,7 +944,13 @@ p{
 }
 .media-number{
     position: absolute;
-    margin-left: 200px;
+    font-family: "Comfortaa", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 20px;
+    color: #424242;
+    margin-left: 20%;
 }
 .elipse{
     position: absolute;
@@ -974,7 +978,9 @@ button{
     border: none;
     width: 357px;
     height: 69px;
+    margin-left: 200px;
   }
+  
   .language-slideout:focus .language-slideout_overflow_content {
     transition-duration: 0.5s;
     transform: translateY(0px);
@@ -993,7 +999,6 @@ button{
     margin-top: 23px;
     width: 130px;
     height: 35px;
-    margin-left: -60px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
@@ -1036,6 +1041,7 @@ button{
     line-height: 29px;
     color: #424242;
   }
+
 @media screen and (max-width: 450px) {
      .hr-main{
         display: none;
@@ -1080,9 +1086,7 @@ button{
         
         display: block;
     }
-    .action1{
-        
-    }
+
     
 }
 
