@@ -53,11 +53,6 @@ body header .header-round {
   align-items: center;
   margin-right: 150px;
 }
-body header .header-round svg {
-  width: 36px;
-  height: 36px;
-  margin-right: 75%;
-}
 body header .header-number {
   position: absolute;
   font-family: "Comfortaa", cursive;
@@ -74,6 +69,11 @@ body header .header-social {
 }
 body header .header-social img {
   margin-left: 20px;
+  transition-duration: 2s;
+}
+body header .header-social img:hover {
+  transition-duration: 2s;
+  transform: scale(1.3);
 }
 body header hr {
   margin-left: 12%;
@@ -105,7 +105,7 @@ body header .language-slideout_button_text {
   width: 130px;
   height: 35px;
   margin-left: 21px;
-  font-family: "Inter";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -116,6 +116,7 @@ body header .language-slideout_button_flag {
   margin-left: 19px;
   width: 69px;
   height: 69px;
+  transition-duration: 2s;
 }
 body header .language-slideout_button_arrow {
   transition-duration: 0.5s;
@@ -145,10 +146,11 @@ body header .language-slideout_overflow_content .content {
 body header .language-slideout_overflow_content .content p {
   color: #424242;
   margin-left: 20px;
+  font-size: 22px;
 }
 body header .language-slideout_overflow_content .content img {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   margin-left: 50px;
 }
 body .under-header {
@@ -187,11 +189,6 @@ body nav ul .nav-list .nav-list-item:hover {
 body nav ul .main-nav-list {
   color: #55A630;
   cursor: pointer;
-  transition-duration: 2s;
-}
-body nav ul .main-nav-list:hover {
-  color: #424242;
-  transition-duration: 1s;
 }
 body main {
   width: 100%;
@@ -242,24 +239,53 @@ body main .up-main .first-up-main-block .up-main-wrapper .adult {
   font-size: 36px;
   line-height: 26px;
   text-align: center;
+  transition-duration: 2s;
+}
+body main .up-main .first-up-main-block .up-main-wrapper .adult:hover {
+  transition-duration: 2s;
+  background-color: #378215;
 }
 body main .up-main .first-up-main-block .up-main-wrapper .up-main-button-wrapper {
   width: 491px;
   display: flex;
   justify-content: center;
 }
+body main .up-main .first-up-main-block .up-main-wrapper .up-main-button-wrapper .child:hover::before {
+  transform: translateX(0px);
+  transition-duration: 2s;
+}
 body main .up-main .first-up-main-block .up-main-wrapper .up-main-button-wrapper .child {
   width: 399px;
   height: 95px;
   border: 1px solid #55A630;
-  color: #55A630;
   background-color: white;
   margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition-duration: 2s;
+}
+body main .up-main .first-up-main-block .up-main-wrapper .up-main-button-wrapper .child:hover p {
+  color: white;
+  transition-duration: 2s;
+}
+body main .up-main .first-up-main-block .up-main-wrapper .up-main-button-wrapper .child p {
+  position: absolute;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 26px;
+  color: #55A630;
+}
+body main .up-main .first-up-main-block .up-main-wrapper .up-main-button-wrapper .child::before {
+  content: "";
+  width: 399px;
+  height: 95px;
+  background-color: #55A630;
+  transform: translateX(399px);
+  transition-duration: 2s;
 }
 body main .up-main .second-up-main-block img {
   position: absolute;
@@ -279,6 +305,11 @@ body main .up-main-text ul {
 body main .up-main-text ul li .up-main-list-block {
   width: 190px;
   height: 103px;
+  transition-duration: 2s;
+}
+body main .up-main-text ul li .up-main-list-block:hover {
+  transition-duration: 2s;
+  transform: scale(1.1);
 }
 body main .up-main-text ul li .up-main-list-block .up-main-text-number {
   text-align: center;
@@ -353,6 +384,11 @@ body main .upper-main .main-slider .doctor-block .doc-information {
 }
 body main .upper-main .main-slider .doctor-block .doc-information img {
   margin-right: 20px;
+  transition-duration: 2s;
+}
+body main .upper-main .main-slider .doctor-block .doc-information img:hover {
+  transform: scale(1.1);
+  transition-duration: 2s;
 }
 body main .upper-main .main-slider .doctor-block .doc-inf {
   display: flex;
@@ -422,12 +458,29 @@ body main .upper-main .main-slider .doctor-block .doc-hrs {
 }
 body main .upper-main .main-slider .doctor-block .doc-one {
   background-color: #55A630;
+  transition-duration: 2s;
+}
+body main .upper-main .main-slider .doctor-block .doc-one:hover {
+  transition-duration: 2s;
+  background-color: #378215;
+}
+body main .upper-main .main-slider .doctor-block .doc-zero {
+  transition-duration: 2s;
+}
+body main .upper-main .main-slider .doctor-block .doc-zero:hover {
+  transition-duration: 2s;
+  background-color: #100d5e;
 }
 body main .upper-main .main-slider .doctor-block .doc-two {
   color: #00A896;
 }
 body main .upper-main .main-slider .doctor-block .two {
   background-color: #00A896;
+  transition-duration: 2s;
+}
+body main .upper-main .main-slider .doctor-block .two:hover {
+  transition-duration: 2s;
+  background-color: #09695f;
 }
 body main .decoration {
   margin-top: -100px;
@@ -452,6 +505,13 @@ body main .middle-main {
 body main .middle-main .img-chapter {
   margin-left: -8%;
   margin-right: 320px;
+}
+body main .middle-main .img-chapter img {
+  transition-duration: 2s;
+}
+body main .middle-main .img-chapter img:hover {
+  transform: scale(1.1);
+  transition-duration: 2s;
 }
 body main .middle-main .about-us-chapter {
   margin-left: -10%;
@@ -500,6 +560,11 @@ body main .middle-main .about-us-chapter .more {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-duration: 2s;
+}
+body main .middle-main .about-us-chapter .more:hover {
+  transform: translateX(40px);
+  transition-duration: 2s;
 }
 body main .middle-main .about-us-chapter .more .more-text {
   color: #55A630;
@@ -509,7 +574,7 @@ body main .middle-main .about-us-chapter .more .more-text {
   font-size: 25px;
   line-height: 28px;
 }
-body main .middle-main .about-us-chapter .more svg {
+body main .middle-main .about-us-chapter .more img {
   margin-left: 48px;
   width: 108px;
 }
@@ -577,9 +642,19 @@ body main .central-main .news .news-text .register {
   font-weight: 600;
   font-size: 23px;
   line-height: 26px;
+  transition-duration: 2s;
+}
+body main .central-main .news .news-text .register:hover {
+  background-color: #378215;
+  transition-duration: 2s;
 }
 body main .central-main .news .new-image {
   margin-left: 60px;
+  transition-duration: 2s;
+}
+body main .central-main .news .new-image:hover {
+  transform: scale(1.1);
+  transition-duration: 2s;
 }
 body main .central-main .news-decoration {
   width: 100%;
@@ -642,6 +717,11 @@ body main .under-main .blocks-container .block {
 body main .under-main .blocks-container .block img {
   width: 100%;
   height: 262px;
+  transition-duration: 2s;
+}
+body main .under-main .blocks-container .block img:hover {
+  transform: scale(1.1);
+  transition-duration: 2s;
 }
 body main .under-main .blocks-container .block .block-information {
   margin-top: 50px;
@@ -677,6 +757,14 @@ body main .under-main .blocks-container .block .block-button .green-block {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-duration: 2s;
+}
+body main .under-main .blocks-container .block .block-button .green-block:hover {
+  transition-duration: 2s;
+  background-color: #378215;
+}
+body main .under-main .blocks-container .block .block-button .green-block img {
+  width: 33px;
 }
 body main .under-main .blocks-container .second-block {
   margin-left: 50px;
@@ -740,6 +828,11 @@ body main .inputs button {
   line-height: 16px;
   color: #FFFFFF;
   border: none;
+  transition-duration: 2s;
+}
+body main .inputs button:hover {
+  transition-duration: 2s;
+  background-color: #378215;
 }
 body footer {
   position: absolute;
