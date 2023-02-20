@@ -304,7 +304,7 @@ main .action1_text_btn {
   width: 575px;
   height: 94px;
   margin-left: 200px;
-  margin-top: -20px;
+  margin-top: 100px;
   cursor: pointer;
   background: radial-gradient(181.49% 3554.55% at -39.78% 50%, #66F833 0%, rgba(217, 217, 217, 0) 100%);
   border-radius: 50px;
@@ -457,7 +457,7 @@ main .action2_text_btn {
   width: 575px;
   height: 94px;
   margin-left: 200px;
-  margin-top: -10px;
+  margin-top: 60px;
   cursor: pointer;
   background: radial-gradient(181.49% 3554.55% at -39.78% 50%, #66F833 0%, rgba(217, 217, 217, 0) 100%);
   border-radius: 50px;
@@ -610,7 +610,7 @@ main .action2_text_btn_p {
   width: 575px;
   height: 94px;
   margin-left: 200px;
-  margin-top: -40px;
+  margin-top: 40px;
   cursor: pointer;
   background: radial-gradient(181.49% 3554.55% at -39.78% 50%, #66F833 0%, rgba(217, 217, 217, 0) 100%);
   border-radius: 50px;
@@ -699,7 +699,7 @@ main .action2_text_btn_p {
   width: 650px;
   height: 270px;
   margin-left: 20%;
-  margin-top: 20px;
+  margin-top: 40px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -723,10 +723,11 @@ main .action2_text_btn_p {
 }
 .breceti_text_btn {
   box-sizing: border-box;
+  position: absolute;
   width: 575px;
   height: 94px;
   margin-left: 200px;
-  margin-top: -10px;
+  margin-top: 60px;
   cursor: pointer;
   background: radial-gradient(181.49% 3554.55% at -39.78% 50%, #66F833 0%, rgba(217, 217, 217, 0) 100%);
   border-radius: 50px;
