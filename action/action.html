@@ -1,48 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Акції</title>
-    <link rel="stylesheet" href="./media/media.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./reset.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <div class="mobile-container">
     <header>
-        <div class="logo-header-element">
-        <img src="../images/Vector 1.svg" alt="">
+      <div class="logo">
+        <img src="../action/images/Vector 1.svg" alt="">
         <p class="logo-text">Valmari</p>
         </div>
-        <hr class="hrheader"> 
-        <div class="header-round">
-          <svg class="header-svg">
-              <use xlink:href="../images/sprite.svg#phone"></use>
-          </svg>
-          <p class="media-number">+65 11.191.858</p>
-        </div>
-        <div class="header-social">
-          <img src="../images/instagram.png" alt="instagram">
-          <img src="../images/facebook.png" alt="facebook">
-          <img src="../images/twitter.png" alt="twitter">
-        </div>
-        <hr>
-       
-      </header>
-      <div class="under-main">
-          <hr class="hr-main">
+        <svg class="menu">
+          <use xlink:href="../action/images/sprite.svg#menu"></use>
+        </svg>
+    </header>
+  <main>
+  </main>
+  </div>
+  <div class="container">
+    <header>
+      <div class="logo">
+      <img src="../action/images/Vector 1.svg" alt="">
+      <p class="logo-text">Valmari</p>
       </div>
-      <nav>
-          <ul>
-              <li class="nav-list "><a class="nav-list-item" href="../main/index.html">Головна</a></li>
-              <li class="nav-list"><a class="nav-list-item" href="#">Про нас</a></li>
-              <li class="nav-list main-nav-list">Акції</li>
-              <li class="nav-list"><a class="nav-list-item" href="#">Магазин</a></li>
-              <li class="nav-list"><a class="nav-list-item" href="../blog/blog.html">Блог</a></li>
-          </ul>
-      </nav>
-      <img class="burger-menu" src="./images/menu.png" alt="">
+      <hr>
+      <div class="header-round">
+        <img src="../action/images/phone-number.png" alt="">
+        <p class="header-number">+65 11.191.858</p>
+      </div>
+      <div class="header-social">
+       <a href="#"><img src="../action/images/instagram.png" alt="instagram"></a>
+       <a href="#"><img src="../action/images/facebook.png" alt="facebook"></a>
+       <a href="#"><img src="../action/images/twitter.png" alt="frame"></a>
+      </div>
+      <hr>
+        <button class="language-slideout">
+        <div class="language-slideout_button">
+          <img src="../action/images/ukraine.png" alt="flag">
+            <p class="language-slideout_button_text">Українська</p>
+            <svg class="language-slideout_button_arrow" width="31" height="18" viewBox="0 0 31 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M27.0886 0.118042L15.7193 11.0744L4.34996 0.118042L0.857422 3.49106L15.7193 17.8443L30.5812 3.49106L27.0886 0.118042Z" fill="#424242"/>
+            </svg>
+        </div>
+        <div class="language-slideout_overflow">
+            <div class="language-slideout_overflow_content">
+                <div class="content">
+                  <img src="../action/images/united-kingdom-uk-svgrepo-com.svg" alt="">
+                <p>English</p>
+                </div>
+            </div>
+        </div>
+    </button>
+    </header>
+    <div class="under-header">
+        <hr>
+    </div>
+    <nav>
+        <ul>
+            <li class="nav-list"><a class="nav-list-item" href="../main/index.html">Головна</a></li>
+            <li class="nav-list"><a class="nav-list-item" href="#">Про нас</a></li>
+            <li class="nav-list"><a class="nav-list-item main-nav-list" href="../action/action.html">Акції</a></li>
+            <li class="nav-list"><a class="nav-list-item" href="#">Магазин</a></li>
+            <li class="nav-list blog"><a class="nav-list-item" href="../blog/blog.html">Блог</a></li>
+        </ul>
+    </nav>
+    <img class="burger-menu" src="./images/menu.png" alt="">
     <main>
       <p class="special">СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</p>
       <div class="action1">
@@ -97,8 +123,7 @@
               захворювань ясен
               </p>
              <p class="plazmo_block_p2">2199грн</p>
-             <p class="plazmo_block_p3">3299грн</p>
-             <hr class="plazmo_block_hr2">
+             
           </div>
           <div class="plazmo_text">
             <h2 class="plazmo_text_h">Знижки на брекети</h2>
@@ -140,8 +165,9 @@
               <p>Харків, Клочківська, д. 3</p>
           </div>
           <ul>
+            <li><a href="../main/index.html">Головна</a></li>
               <li><a href="#">Про нас</a></li>
-              <li><a href="../main/index.html">Головна</a></li>
+              
               <li><a href="#">Магазин</a></li>
               <li><a href="../blog/blog.html">Блог</a></li>
           </ul>
@@ -153,7 +179,5 @@
           <p class="copyright">Політика конфеденційності</p>
       </div>
   </footer>
-</body>
-</html>
 </body>
 </html>
