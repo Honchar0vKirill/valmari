@@ -3,7 +3,7 @@
 }
 
 .slider-mobile {
-  display: none;
+  display: none !important;
 }
 
 body hr {
