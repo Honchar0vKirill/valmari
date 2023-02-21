@@ -81,6 +81,7 @@ body header hr {
   height: 67px;
 }
 body header .language-slideout {
+  cursor: pointer;
   background: none;
   border: none;
   width: 357px;
