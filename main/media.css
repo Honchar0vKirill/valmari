@@ -1,13 +1,4 @@
-p {
-  color: #424242;
-}
-
-@media (min-width: 415px) {
-  .mobile-container {
-    display: none;
-  }
-}
-@media (max-width: 415px) {
+@media (max-width: 450px) {
   .container {
     display: none;
   }
@@ -15,11 +6,13 @@ p {
     display: block;
   }
   .mobile-container header {
-    width: 100%;
+    width: 100% !important;
     height: 200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .mobile-container header .logo {
     margin-top: 4%;
@@ -28,10 +21,6 @@ p {
     border-radius: 98px;
     background: #d7f4c1;
     border: #88AC6B solid 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
   }
   .mobile-container header .logo img {
     margin-top: -15%;
@@ -47,9 +36,10 @@ p {
   .mobile-container header .menu {
     width: 55px;
     height: 55px;
+    margin-left: 50%;
   }
   .mobile-container main {
-    margin-top: -230px;
+    margin-top: -300px;
   }
   .mobile-container main .mobile-up-main {
     width: 414px;
