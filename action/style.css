@@ -979,4 +979,10 @@ button {
   .burger-menu {
     display: block;
   }
+  .language-slideout {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
