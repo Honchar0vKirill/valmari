@@ -49,13 +49,72 @@ body {
         cursor: pointer;
     }
     header {
-        width: 100%;
-        height: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        height: 200px;
+        .logo {
+            top: 30px;
+            left: 50px;
+            position: absolute;
+            width: 98px;
+            height: 96px;
+            border-radius: 98px;
+            background: #d7f4c1;
+            border: #88AC6B solid 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          img {
+          margin-top: -15%;
+          }
+          .logo-text {
+            font-family: $roboto;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 30px;
+            color: #424242;
+          }
+        }
+        .header-round {
+            width: 63px;
+            height: 63px;
+            background-color: #DDF4CB;
+            border-radius: 63px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 150px;
+        }
+        .header-number {  
+            position: absolute;
+            font-family: $comfortaa;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 20px;
+            color: #424242;
+            margin-left: 20%;
+        }
+        .header-social {
+            width: 200px;
+            margin-left: 7%;
+            img {
+                margin-left: 20px;
+                transition-duration: 2s;
+                &:hover {
+                    transition-duration: 2s;
+                    transform: scale(1.3);
+                }
+            }
+        }
         hr {
-            margin-left: 5%;
+            margin-left: 12%;
+            width: 2px;
+            height: 67px;
         }
         .language-slideout {
             &:focus {
@@ -82,7 +141,7 @@ body {
                     width: 130px;
                     height: 35px;
                     margin-left: 21px;
-                    font-family: $comfortaa;
+                    font-family: $montserrat;
                     font-style: normal;
                     font-weight: 400;
                     font-size: 24px;
@@ -94,7 +153,6 @@ body {
                     margin-left: 19px;
                     width: 69px;
                     height: 69px;
-                    transition-duration: 2s;
                 }
                 &_arrow {
                     transition-duration: 0.5s;
@@ -113,22 +171,19 @@ body {
                     transition-duration: 0.5s;
                     transform: translateY(-255px);
                     width: 100%;
-                    height: 100%; 
-                    .content {
-                        p {
-                            color: #424242;
-                            margin-left: 20px;
-                            font-size: 22px
-                        }
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        margin-left: -130px;
-                        img {
-                            width: 25px;
-                            height: 25px;
-                            margin-left: 50px;
-                        }
+                    height: 100%;
+                    margin-left: -40px;
+                    margin-top: -2px;
+                    img {
+                        width: 26px;
+                        height: 26px;
+                        margin-left: -100px;
+                    }   
+                    p {
+                        margin-top: -26px;
+                        font-family: $montserrat;
+                        font-size: 20px;
+                        margin-left: 20px;
                     }
                 }
             }
@@ -193,7 +248,7 @@ main{
     width: 494px;
     height: 63px;
         p{
-            font-family: 'Comfortaa';
+            font-family: $comfortaa;
             font-style: normal;
             font-weight: 400;
             font-size: 32px;
@@ -222,6 +277,11 @@ main{
     }
     img{
         width: 102%;
+      transition-duration: 2s;
+        &:hover {
+            transform: scale(1.1);
+            transition-duration: 2s;
+        }
     }
 }
 .wrapper{
@@ -284,6 +344,11 @@ main{
     background: #F8F8F8;
     width: 367px;
     height: 400px;
+    transition-duration: 2s;
+    &:hover {
+        transform: scale(1.1);
+        transition-duration: 2s;
+    }
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     div{
         margin-top: -5%;
@@ -320,9 +385,9 @@ main{
     background: #F5F5F5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    margin-top: -50%;
+    margin-top: -30%;
     h1{
-        font-family: 'Montserrat';
+        font-family: $montserrat;
         font-style: normal;
         font-weight: 600;
         font-size: 30px;
@@ -331,7 +396,7 @@ main{
         color: #55A630;        
     }
     p{
-        font-family: 'Montserrat';
+        font-family: $montserrat;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -356,13 +421,18 @@ main{
         width: 426.97px;
         height: 71px;
         background: #55A630;
-        font-family: 'Montserrat';
+        font-family: $montserrat;
         font-style: normal;
         font-weight: 600;
         font-size: 23px;
         line-height: 16px;
         color: #FFFFFF;   
-        border: none;     
+        border: none;  
+        transition-duration: 2s;
+        &:hover {
+            background-color: #378215;
+            transition-duration: 2s;
+        }
     }
 }
 footer{
@@ -393,7 +463,7 @@ footer{
         li{
                             list-style: none;
             a {
-                font-family: 'Montserrat';
+                font-family: $montserrat;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 18px;
@@ -410,7 +480,7 @@ footer{
 }
 .ftr-head{
         h1{
-            font-family: 'Comfortaa';
+            font-family: $comfortaa;
             font-style: normal;
             font-weight: 400;
             font-size: 32px;
@@ -420,7 +490,7 @@ footer{
             text-align: center;       
 }
 p{
-    font-family: 'Montserrat';
+    font-family: $montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -433,7 +503,7 @@ p{
 }
 }
 .copyright{
-    font-family: 'Montserrat';
+    font-family: $montserrat;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
