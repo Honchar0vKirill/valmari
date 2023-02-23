@@ -6,26 +6,40 @@ $roboto: 'Roboto', sans-serif;
     justify-content: center;
     align-items: center;
 }
-p {
-    color: #424242;
+@mixin stats-item-header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+    color: #55A630;
 }
-@media (min-width:415px) {
-    .mobile-container {
-        display: none;
-    }
+@mixin stats-item-paragraph{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 7.5px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #424242;    
 }
-@media (max-width:415px) {
+@media (max-width: 450px) {
     .container {
         display: none;
     }
     .mobile-container {
         display: block;
         header {
-            width: 100%;
+            width: 100% !important;
             height: 200px;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
             .logo {
                 margin-top: 4%;
                 width: 98px;
@@ -33,8 +47,6 @@ p {
                 border-radius: 98px;
                 background: #d7f4c1;
                 border: #88AC6B solid 4px;
-                @include flex();
-                flex-direction: column;
               img {
               margin-top: -15%;
               }
@@ -46,14 +58,15 @@ p {
                 line-height: 30px;
                 color: #424242;
               }
-            }
+}
             .menu {
                 width: 55px;
                 height: 55px;
+                margin-left: 50%;
             }
     }
-    main {
-        margin-top: -230px;
+    main{
+        margin-top: -300px;
         .mobile-up-main {
             width: 414px;
             display: flex;
