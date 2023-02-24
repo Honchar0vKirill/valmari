@@ -5,43 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Блог</title>
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="blog.css">
 </head>
 <body>
-    <header>
-        <div class="header-mobile">
-            <a href="../Main/index.html"><img src="../images/logo.png" class="logo"></a>
-            <div class="dropdown">
-                <a href="#" class="mainmenubtn"><img src="../images/menu.png"></a>
-                <div class="dropdown-child">
-                    <a href="../Main/index.html">Головна</a>
-                    <a href="#">Про нас</a>
-                    <a href="../action/action.html">Акції</a>
-                    <a href="#">Магазин</a>
-                    <a href="../blog/blog.html">Блог</a>
-                  </div>
-            </div>
+    <div class="container">
+      <header>
+        <div class="logo">
+        <img src="../images/Vector 1.svg" alt="">
+        <p class="logo-text">Valmari</p>
         </div>
-        <img src="../images/logo.png" class="logo-desktop">
         <hr>
-            <div class="info">
-                <img src="../images/phone-number.png">
-                <p>+65 11.191.858</p>   
-                <div class="social-media">
-                    <a href="#"><img src="../images/instagram.png" alt="instagram"></a>
-                    <a href="#"><img src="../images/facebook.png" alt="facebook"></a>
-                    <a href="#"><img src="../images/twitter.png" alt="twitter"></a>
-                </div>
-            </div>
+        <div class="header-round">
+          <img src="../images/phone-number.png" alt="">
+          <p class="header-number">+65 11.191.858</p>
+        </div>
+        <div class="header-social">
+         <a href="#"><img src="../images/instagram.png" alt="instagram"></a>
+         <a href="#"><img src="../images/facebook.png" alt="facebook"></a>
+         <a href="#"><img src="../images/twitter.png" alt="frame"></a>
+        </div>
         <hr>
-       <div class="ukranian">
-          <img class="ukraine" src="../images/ukraine.png" alt="ukraine">
-          <p class="ukr-lang">Українська</p>
-       </div>
-        <svg>
-          <use xlink:href="../images/sprite.svg#arrow-down"></use>
-        </svg>
+          <button class="language-slideout">
+          <div class="language-slideout_button">
+            <img src="../images/ukraine.png" alt="flag">
+              <p class="language-slideout_button_text">Українська</p>
+              <svg class="language-slideout_button_arrow" width="31" height="18" viewBox="0 0 31 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M27.0886 0.118042L15.7193 11.0744L4.34996 0.118042L0.857422 3.49106L15.7193 17.8443L30.5812 3.49106L27.0886 0.118042Z" fill="#424242"/>
+              </svg>
+          </div>
+          <div class="language-slideout_overflow">
+              <div class="language-slideout_overflow_content">
+                  <div clas s="content">
+                    <img src="../images/united-kingdom-uk-svgrepo-com.svg" alt="">
+                  <p>English</p>
+                  </div>
+              </div>
+          </div>
+      </button>
       </header>
       <div class="under-main">
           <hr>
@@ -49,7 +50,7 @@
       <nav>
           <ul>
               <li class="nav-list"><a href="../Main/index.html">Головна</a></li>
-              <li class="nav-list"><a href="#">Про нас</a></li>
+              <li class="nav-list"><a class="nav-list-item" href="../about-us/about-us.html">Про нас</a></li>
               <li class="nav-list"><a href="../action/action.html">Акції</a></li>
               <li class="nav-list"><a href="#">Магазин</a></li>
               <li class="nav-list"><a class="active" href="./blog.html">Блог</a></li>
@@ -202,7 +203,7 @@
                 <p>Харків, Клочківська, д. 3</p>
             </div>
             <ul>
-                <li><a href="#">Про нас</a></li>
+                <li><a href="../about-us/about-us.html">Про нас</a></li>
                 <li><a href="../action/action.html">Акції</a></li>
                 <li><a href="#">Магазин</a></li>
                 <li><a href="../main/index.html">Головна</a></li>

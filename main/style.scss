@@ -107,7 +107,7 @@ body {
                     width: 130px;
                     height: 35px;
                     margin-left: 21px;
-                    font-family: $comfortaa;
+                    font-family: 'Inter';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 24px;
@@ -119,7 +119,6 @@ body {
                     margin-left: 19px;
                     width: 69px;
                     height: 69px;
-                    transition-duration: 2s;
                 }
                 &_arrow {
                     transition-duration: 0.5s;
@@ -138,20 +137,19 @@ body {
                     transition-duration: 0.5s;
                     transform: translateY(-255px);
                     width: 100%;
-                    height: 100%; 
-                    .content {
-                        p {
-                            color: #424242;
-                            margin-left: 20px;
-                            font-size: 22px
-                        }
-                        @include flex ();
-                        margin-left: -130px;
-                        img {
-                            width: 25px;
-                            height: 25px;
-                            margin-left: 50px;
-                        }
+                    height: 100%;
+                    margin-left: -40px;
+                    margin-top: -2px;
+                    img {
+                        width: 26px;
+                        height: 26px;
+                        margin-left: -100px;
+                    }   
+                    p {
+                        margin-top: -26px;
+                        font-family: $montserrat;
+                        font-size: 20px;
+                        margin-left: 20px;
                     }
                 }
             }

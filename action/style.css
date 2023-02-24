@@ -230,6 +230,11 @@ main .action1_block {
   background: url(./images/Group136.png);
   border: 1px solid #46F233;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition-duration: 2s;
+}
+main .action1_block:hover {
+  transform: scale(1.1);
+  transition-duration: 2s;
 }
 main .action1_block_logo {
   margin-left: 30%;
@@ -341,6 +346,11 @@ main .action2_block {
   background: url(./images/Zybi.png);
   border: 1px solid #46F233;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition-duration: 2s;
+}
+main .action2_block:hover {
+  transform: scale(1.1);
+  transition-duration: 2s;
 }
 main .action2_block_logo {
   margin-top: 40px;
@@ -495,6 +505,11 @@ main .action2_text_btn_p {
   background: url(./images/plazmo.png);
   border: 1px solid #46F233;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition-duration: 2s;
+}
+.plazmo_block:hover {
+  transform: scale(1.1);
+  transition-duration: 2s;
 }
 .plazmo_block_logo {
   margin-top: 40px;
@@ -648,6 +663,11 @@ main .action2_text_btn_p {
   background: url(./images/breceti.png);
   border: 1px solid #46F233;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition-duration: 2s;
+}
+.breceti_block:hover {
+  transform: scale(1.1);
+  transition-duration: 2s;
 }
 .breceti_block_logo {
   margin-top: 40px;
@@ -890,6 +910,11 @@ footer {
   line-height: 16px;
   color: #FFFFFF;
   border: none;
+  transition-duration: 2s;
+}
+.inputs button:hover {
+  background-color: #378215;
+  transition-duration: 2s;
 }
 
 .media-number {
