@@ -229,7 +229,7 @@ color: #424242;
     &_block{
         box-sizing: border-box;
 
-        position: absolute;
+        position: none;
         width: 650px;
         height: 640px;
         top: 478px;
@@ -273,9 +273,9 @@ color: #424242;
        
    }
    &_text{
-            width: 892px;
+            width: 100%;
             height: 640px;
-            margin-left: 550px;
+            margin-left: -100px;
         &_h{
             width: 515px;
             height: 63px;
@@ -1052,8 +1052,17 @@ button{
     width: 50px;
     margin-top: -160px;
 }
+.dots{
+    display: none;
+}
+.strelochka{
+    display: none;
+}
 
 @media screen and (max-width: 450px) {
+    body{
+      width: 440px;
+    }
      .hr-main{
         display: none;
     }
@@ -1065,13 +1074,6 @@ button{
     .hrheader{
         display: none;
     }
-
-
-
-   
-
-
-
     .strelca{
         display: none;
     }
@@ -1105,8 +1107,23 @@ button{
     }
     .action1{
         display: block !important;
-        width: 80%;
-        
+        width: 440px;
+        &_block{
+            margin-left: 200px;
+            
+        }
+        &_text{
+            display: none;
+        }
+
+
+    }
+    .strelochka{
+        display: block !important;
+        margin-top: 30px;
+    }
+    .dots{
+        display: block;
     }
     .action2{
         display: none !important;;
@@ -1118,7 +1135,7 @@ button{
         display: none;
     }
     .form{
-        margin-top: 500px;
+       margin-top: 200px;
     }
     .elipse{
         display: none;
