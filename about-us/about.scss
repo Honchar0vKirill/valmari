@@ -10,6 +10,7 @@ p {
     color: #424242;
 }
 body {
+    background-color: blue;
     hr {
         width: 67px;
         background-color: #d9d9d9;
@@ -74,8 +75,14 @@ body {
             margin-left: 7%;
             img {
                 margin-left: 20px;
+                transition-duration: 2s;
+                &:hover {
+                    transform: scale(1.1);
+                    transition-duration: 2s;
+                }
             }
         }
+
         hr {
             margin-left: 12%;
             width: 2px;
