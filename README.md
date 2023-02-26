@@ -1,2 +1,0 @@
-# valmari
-Goiteens group project
