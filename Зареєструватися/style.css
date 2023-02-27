@@ -1,3 +1,7 @@
+p {
+  color: #424242;
+}
+
 .Title {
   text-align: center;
   font-family: "Inter";
@@ -5,7 +9,6 @@
   font-weight: 400;
   font-size: 36px;
   line-height: 44px;
-  color: #000000;
 }
 
 .formName {
@@ -17,7 +20,6 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  color: #000000;
 }
 
 .form-control {
@@ -38,11 +40,9 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  color: #000000;
 }
 
 .form-controls {
-  margin-top: -11px;
   margin-left: 880px;
   background: #C7C7C7;
   width: 367px;
@@ -67,9 +67,16 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  color: #000000;
-  margin-top: 127px;
+  margin-top: 137px;
   margin-left: 881px;
+}
+
+.input-email {
+  margin-top: 14px;
+}
+
+.input-password {
+  margin-top: 17px;
 }
 
 .btn {
@@ -89,8 +96,8 @@
   color: #646464;
 }
 
-.img {
-  position: absolute;
-  margin-top: -180px;
-  margin-left: 705px;
+.decoration-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

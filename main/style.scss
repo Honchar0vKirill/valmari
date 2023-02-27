@@ -630,17 +630,19 @@ body {
             }
             .register {
                 background-color: #55A630;
-                color: white;
                 width: 385px;
                 height: 75px;
                 border-radius: 20px;
                 border: none;
+                transition-duration: 2s;
+                a {
+                 color: white;
                 font-family: $montserrat;
                 font-style: normal;
                 font-weight: 600;
                 font-size: 23px;
                 line-height: 26px;
-                transition-duration: 2s;
+                }
                 &:hover {
                     background-color: #378215;
                     transition-duration: 2s;
@@ -718,10 +720,6 @@ body {
                     width: 100%;
                     height: 262px;
                     transition-duration: 2s;
-                    &:hover {
-                        transform: scale(1.1);
-                        transition-duration: 2s;
-                    }
                 }
                 .block-information {
                     margin-top: 50px;
@@ -834,7 +832,7 @@ body {
  }
  footer{
     position: absolute;
-    margin-top: 450%;
+    margin-top: 470%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
