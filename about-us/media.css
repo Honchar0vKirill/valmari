@@ -191,20 +191,14 @@
     margin-top: 25%;
     margin-bottom: 60px;
   }
-  .mobile-container main .reviews-cont {
+  .mobile-container main .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
   }
-  .mobile-container main .reviews-cont .reviews {
-    width: 280px;
+  .mobile-container main .flex-container .reviews {
+    width: 260px;
     height: 158px;
-    background-color: #cefea7;
-  }
-  .mobile-container main .reviews-cont .reviews .wrapper {
-    width: 88px;
-    height: 46px;
-    background-color: #75ce4c;
+    background-color: #aee085;
   }
 }/*# sourceMappingURL=media.css.map */
