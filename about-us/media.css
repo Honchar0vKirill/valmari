@@ -400,4 +400,9 @@
   .active, .dot:hover {
     background-color: #111111;
   }
-}/*# sourceMappingURL=media.css.map */
+  .mobile-container main .flex-container .reviews {
+    width: 260px;
+    height: 158px;
+    background-color: #aee085;
+}
+}
