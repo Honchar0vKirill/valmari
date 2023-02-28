@@ -1,3 +1,8 @@
+@media (max-width: 420px) {
+  .mobile-up-main .mobile-up-first-block {
+    margin-left: 50px;
+  }
+}
 @media (min-width: 451px) {
   .container {
     display: block;

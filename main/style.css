@@ -1,7 +1,14 @@
+button {
+  cursor: pointer;
+}
+
 p {
   color: #424242;
 }
 
+body {
+  overflow-x: hidden;
+}
 body hr {
   width: 67px;
   background-color: #d9d9d9;
@@ -160,8 +167,7 @@ body .under-header hr {
 }
 body nav {
   margin-top: 43px;
-  margin-left: 50px;
-  width: 1304px;
+  width: 100%;
 }
 body nav ul {
   display: flex;
@@ -411,7 +417,7 @@ body main .upper-main .main-slider .doctor-block .doc-inf .short-inf {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 12px;
+  line-height: 22px;
 }
 body main .upper-main .main-slider .doctor-block .doc-inf .short-inf br {
   margin-top: 10px;
@@ -552,6 +558,7 @@ body main .middle-main .about-us-chapter .text-inf {
   margin-top: -100px;
 }
 body main .middle-main .about-us-chapter .more {
+  cursor: pointer;
   margin-left: 130px;
   display: flex;
   justify-content: center;

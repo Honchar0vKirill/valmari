@@ -26,6 +26,23 @@ $roboto: 'Roboto', sans-serif;
     text-align: center;
     color: #424242;    
 }
+@media (max-width:420px) {
+    .block-decoration {
+        display: none;
+    }
+    .reviews-text {
+        display: none;
+    }
+    .table-cont {
+        display: none;
+    }
+    center {
+        hr {
+            display: none;
+        }
+        margin-top: 400px;
+    }
+}
 @media (min-width:451px) {
     .container {
         display: block;
@@ -34,12 +51,13 @@ $roboto: 'Roboto', sans-serif;
         display: none;
     }
 }
-@media (max-width: 451px) {
+@media (max-width: 481px) {
     .container {
         display: none;
     }
     .mobile-container {
         display: block;
+        overflow: hidden;
         header {
             width: 100%;
             height: 200px;
@@ -218,14 +236,198 @@ $roboto: 'Roboto', sans-serif;
                 margin-top: 25%;
                 margin-bottom: 60px;
             }
-            .flex-container {
-                @include flex();
-                .reviews {
-                    width: 260px;
+            .table-cont {
+                margin-top: 270px;
+                margin-left: -46%;
+            }
+            .tableReviews {
+                width: 414px;
+                height: 980px;
+                position: relative;
+                margin-top: 100px;
+            }
+            .userCard {
+                width: 100px;
+                height: 300px;
+                margin-top: 30px;
+                margin-left: -314px;
+                img {
+                    width: 27px;
+                    height: 27px;
+                    margin-top: 50px;
+                }
+                .name {
+                    margin-top: 25px;
+                    margin-left: -1%;
+                }
+                .date {
+                    margin-left: -1%;
+                }
+            }
+            .review {
+               position: absolute;
+               left: -115%;
+               margin-top: -36%;
+            }
+            center {
+                hr {
+                    width: 200px;
+                    height: 3px;
+                    background-color: #55A630;
+                    margin-top: 62px;
+                    margin-bottom: 24px;
+                }
+                .write-review {
+                font-family: $montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 21px;
+                line-height: 26px;
+                color: #3B7720;
+                margin-bottom: 15px;
+                }
+                .review-block {
+                    width: 300px;
                     height: 158px;
-                    background-color: #aee085;
+                    background: #F0F0F0;
+                    border-radius: 9px;
+                    margin-top: 20px;
+                    .input-cont {
+                        display: flex;
+                        justify-content: space-between;
+                        .rev {
+                            margin-left: 17%;
+                            .rev-input {
+                                width: 200px;
+                            }
+                        }
+                        .inputs {
+                            p {
+                                font-family: $montserrat;
+                                color: #424242;
+                            }
+                            input {
+                                margin-top: 10px;
+                                width: 103px;
+                                height: 21px;
+                                border-radius: 2px;
+                                border: none;
+                                background-color: #cdc1c1;
+                            }
+                        }
+                    }
+                    button {
+                        background: linear-gradient(91.67deg, #509133 -28.29%, #DDF4CB 104.2%);
+                        border-radius: 30px;
+                        width: 172px;
+                        height: 34px;
+                        border: none;
+                       color: #424242;
+                    }
                 }
             }
         }
+        footer{
+            margin-top: 900%;
+            width: 100%;
+            left: 0%;
+        }
+        .form{
+            margin-top: 30%;
+            width: 383px;
+            height: 300px;
+            @include flex();
+            flex-direction: column;
+            margin-left: 4%;
+        }
+        .inputs{
+            input{
+                width: 326px;
+                height: 51px;
+                margin-top: 30px;
+            }
+            button{
+                width: 326px;
+                height: 51px;
+                margin-top: 30px;
+                p{
+                    font-family: $montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 23px;
+                    line-height: 16px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .interesting-information{
+            width: 80%;
+            height: 488px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            h1{
+               
+                color: #424242;
+            }
+        }
+        .mobile-invisible{
+            display: none;
+        }
+        iframe{
+            width: 200px;
+        }
+        }
+        .slider-mobile{
+            display: flex;
+            flex-direction: column;
+        }
+        .mySlides {
+            display: flex;
+            justify-content: space-around;
+            background: #F8F8F8;
+            width: 367px;
+            height: 400px;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        img {vertical-align: middle;}
+        .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+        }
+        .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        }
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        }
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #999999;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+        .active, .dot:hover {
+        background-color: #111111;
+        }
     }
-}
