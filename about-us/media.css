@@ -1,0 +1,204 @@
+@media (min-width: 451px) {
+  .container {
+    display: block;
+  }
+  .mobile-container {
+    display: none;
+  }
+}
+@media (max-width: 451px) {
+  .container {
+    display: none;
+  }
+  .mobile-container {
+    display: block;
+  }
+  .mobile-container header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .mobile-container header .logo {
+    margin-top: 4%;
+    width: 98px;
+    height: 96px;
+    border-radius: 98px;
+    background: #d7f4c1;
+    border: #88AC6B solid 4px;
+  }
+  .mobile-container header .logo img {
+    margin-top: -15%;
+  }
+  .mobile-container header .logo .logo-text {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #424242;
+  }
+  .mobile-container header .menu {
+    width: 55px;
+    height: 55px;
+    margin-left: 55%;
+  }
+  .mobile-container main .about-us-img {
+    width: 100%;
+    size: 100%;
+    margin-top: 160px;
+  }
+  .mobile-container main .about-us-text {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 28px;
+    text-align: center;
+    color: #858585;
+  }
+  .mobile-container main .flex-start {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .mobile-container main .flex-start .lorem {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    /* or 155% */
+    color: #424242;
+    opacity: 0.8;
+  }
+  .mobile-container main .flex-start .lorems {
+    margin-top: 60px;
+  }
+  .mobile-container main .flex-start .mobile-text {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 107%;
+    letter-spacing: -0.4px;
+    color: #424242;
+  }
+  .mobile-container main .flex-start .valmari {
+    color: #55A630;
+  }
+  .mobile-container main .flex-start .big-inf {
+    margin-top: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #424242;
+  }
+  .mobile-container main .flex-start .more {
+    color: #55A630;
+  }
+  .mobile-container main .central-hr {
+    background-color: #55A630;
+    width: 200px;
+    height: 2px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+  }
+  .mobile-container main .where-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 63px;
+  }
+  .mobile-container main .where-block .where {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3B7720;
+  }
+  .mobile-container main .second-cont {
+    margin-top: 51px;
+  }
+  .mobile-container main .block-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mobile-container main .block-container .wrapper {
+    width: 404px;
+    height: 189px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-container main .block-container .wrapper .img-side {
+    width: 50%;
+    height: 100%;
+  }
+  .mobile-container main .block-container .wrapper .img-side img {
+    height: 189px;
+  }
+  .mobile-container main .block-container .wrapper .block-side {
+    width: 50%;
+    height: 100%;
+    background-color: #868282;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mobile-container main .block-container .wrapper .block-side .side-wrapper {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .mobile-container main .block-container .wrapper .block-side .side-wrapper img {
+    width: 46px;
+    height: 38px;
+  }
+  .mobile-container main .block-container .wrapper .block-side .side-wrapper ul li {
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+  .mobile-container main .block-container .wrapper .block-side .side-wrapper .second-ul {
+    margin-top: 20px;
+  }
+  .mobile-container main .block-decoration {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobile-container main .block-decoration .bottom {
+    margin-top: 50px;
+  }
+  .mobile-container main .reviews-text {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 17px;
+    color: #3B7720;
+    margin-top: 25%;
+    margin-bottom: 60px;
+  }
+  .mobile-container main .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-container main .flex-container .reviews {
+    width: 260px;
+    height: 158px;
+    background-color: #aee085;
+  }
+}/*# sourceMappingURL=media.css.map */
