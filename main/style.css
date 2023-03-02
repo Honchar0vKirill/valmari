@@ -233,15 +233,15 @@ body main .up-main .first-up-main-block .up-main-wrapper .adult {
   width: 491px;
   height: 126px;
   background-color: #55A630;
-  color: white;
   border: none;
+  transition-duration: 2s;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 26px;
   text-align: center;
-  transition-duration: 2s;
 }
 body main .up-main .first-up-main-block .up-main-wrapper .adult:hover {
   transition-duration: 2s;
@@ -262,24 +262,26 @@ body main .up-main .first-up-main-block .up-main-wrapper .up-main-button-wrapper
   border: 1px solid #55A630;
   background-color: white;
   margin-top: 28px;
+  overflow: hidden;
+  transition-duration: 2s;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  transition-duration: 2s;
-}
-body main .up-main .first-up-main-block .up-main-wrapper .up-main-button-wrapper .child:hover p {
-  color: white;
-  transition-duration: 2s;
 }
 body main .up-main .first-up-main-block .up-main-wrapper .up-main-button-wrapper .child p {
   position: absolute;
+  transition-duration: 2s;
+  color: #55A630;
+  text-align: center;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 26px;
-  color: #55A630;
+}
+body main .up-main .first-up-main-block .up-main-wrapper .up-main-button-wrapper .child:hover p {
+  color: white;
+  transition-duration: 2s;
 }
 body main .up-main .first-up-main-block .up-main-wrapper .up-main-button-wrapper .child::before {
   content: "";

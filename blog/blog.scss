@@ -36,6 +36,7 @@ $roboto: 'Roboto', sans-serif;
     display: none !important;
 }
 body {
+    overflow-x: hidden;
     hr {
         height: 67px;
         background: #D9D9D9;
@@ -119,6 +120,7 @@ body {
  .active{
     color:#55A630 !important;
     transition-duration: 2s;
+    background-color: white;
     &:hover{
         color:#424242 !important;
         transition-duration: 1s;
