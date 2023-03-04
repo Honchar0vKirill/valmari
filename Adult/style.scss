@@ -1,3 +1,10 @@
+body {
+    overflow-x: hidden;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
 .under-header {
     hr {
         width: 100%;

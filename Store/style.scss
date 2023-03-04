@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 $montserrat:'Montserrat', sans-serif;
 $inter:'Inter', sans-serif;
-
+body {
+    overflow-x: hidden;
+}
 a {
     text-decoration: none;
 }
@@ -331,7 +333,7 @@ button {
                 font-weight: 300;
                 font-size: 20px;
                 line-height: 24px;
-                
+                width: 400px;
                 color: #929191;
             }
         }

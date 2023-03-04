@@ -2,6 +2,9 @@ p {
   color: #424242;
 }
 
+body {
+  overflow-x: hidden;
+}
 body hr {
   width: 67px;
   background-color: #d9d9d9;

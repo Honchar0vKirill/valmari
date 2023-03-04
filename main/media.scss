@@ -26,13 +26,6 @@ $roboto: 'Roboto', sans-serif;
     text-align: center;
     color: #424242;    
 }
-@media (max-width:420px) {
-    .mobile-up-main {
-        .mobile-up-first-block {
-            margin-left: 50px;
-        }
-    }
-}
 @media (min-width:451px) {
     .container {
         display: block;
@@ -41,7 +34,7 @@ $roboto: 'Roboto', sans-serif;
         display: none;
     }
 }
-@media (max-width: 451px) {
+@media (max-width: 481px) {
     .container {
         display: none;
     }
@@ -506,5 +499,17 @@ $roboto: 'Roboto', sans-serif;
     }
     .active, .dot:hover {
     background-color: #111111;
+    }
+}
+@media (max-width:321px) {
+    .mobile-up-main {
+        .mobile-up-first-block {
+            margin-left: 50px;
+        }
+    }
+    .inputs {
+       input {
+        padding-left: 20px;
+       }
     }
 }

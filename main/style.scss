@@ -229,19 +229,19 @@ body {
                 width: 580px;
             }
             .adult {
-                margin-top: 92px;
-                width: 491px;
-                height: 126px;
-                background-color: #55A630;
-                color: white;
-                border: none;
-                font-family: $roboto;
-                font-style: normal;
-                font-weight: 600;
-                font-size: 36px;
-                line-height: 26px;
-                text-align: center;
-                transition-duration: 2s;
+                    margin-top: 92px;
+                    width: 491px;
+                    height: 126px;
+                    background-color: #55A630;
+                    border: none;
+                    transition-duration: 2s;
+                    color: white;
+                    font-family: $roboto;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 26px;
+                    text-align: center;
                 &:hover {
                     transition-duration: 2s;
                     background-color: #378215;
@@ -261,23 +261,25 @@ body {
         border: 1px solid #55A630;
         background-color: white;
         margin-top: 28px;
-        @include flex ();
         overflow: hidden;
         transition-duration: 2s;
-        &:hover {
-            p {
-                color: white;
-                transition-duration: 2s;
-            }
-        }
+        @include flex ();
         p {
             position: absolute;
+            transition-duration: 2s;
+            color: #55A630;
+            text-align: center;
             font-family: $roboto;
             font-style: normal;
             font-weight: 600;
             font-size: 24px;
             line-height: 26px;
-            color: #55A630;
+        }
+        &:hover {
+            p {
+                color: white;
+                transition-duration: 2s;
+            }
         }
         &::before {
             content: "";
