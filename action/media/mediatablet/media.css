@@ -1,0 +1,64 @@
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-left: -30px;
+  }
+  .header-round {
+    width: 200px !important;
+    margin-left: 200px;
+  }
+  .header-round .header-number {
+    margin-left: 270px;
+    width: 190px !important;
+  }
+  .header-social {
+    display: flex;
+    width: 30px !important;
+  }
+  .header-social a {
+    width: 30px;
+  }
+  .language-slideout_button_arrow {
+    display: none;
+  }
+  nav {
+    width: 630px;
+  }
+  nav ul {
+    width: 700px;
+  }
+  .action1 {
+    display: block !important;
+    width: 440px;
+  }
+  .action1_block {
+    margin-left: 300px;
+  }
+  .action1_text {
+    display: none;
+  }
+  .strelochka {
+    display: block !important;
+    margin-top: 30px;
+  }
+  .dots {
+    display: block;
+  }
+  .action2 {
+    display: none !important;
+  }
+  .plazmo {
+    display: none;
+  }
+  .breceti {
+    display: none;
+  }
+  .form {
+    margin-top: 200px;
+  }
+  .elipse {
+    display: none;
+  }
+  .elipse2 {
+    display: none;
+  }
+}/*# sourceMappingURL=media.css.map */
