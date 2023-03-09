@@ -508,3 +508,13 @@ $roboto: 'Roboto', sans-serif;
     background-color: #111111;
     }
 }
+
+@media screen and (max-width:800) {
+    .header-social{
+        display: flex;
+        width: 30px !important;
+        a{
+            width: 30px;
+        }
+    }
+}
