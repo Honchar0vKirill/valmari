@@ -261,7 +261,7 @@ main .action1_block_text::before {
   position: absolute;
   content: "";
   width: 719px;
-  height: 640px;
+  height: 400px;
 }
 main .action1_text {
   width: 100%;
