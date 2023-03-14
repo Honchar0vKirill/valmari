@@ -258,11 +258,13 @@ body {
         .child {
          width: 399px;
         height: 95px;
-        border: 1px solid #55A630;
         background-color: white;
         margin-top: 28px;
         overflow: hidden;
         transition-duration: 2s;
+        position: relative;
+        border: none;
+        border: 1px solid #55A630;
         @include flex ();
         p {
             position: absolute;
@@ -283,8 +285,9 @@ body {
         }
         &::before {
             content: "";
-            width: 399px;
+            width: 100%;
             height: 95px;
+            position: absolute;
             background-color: #55A630;
             transform: translateX(399px);
             transition-duration: 2s;
