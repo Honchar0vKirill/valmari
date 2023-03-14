@@ -509,12 +509,3 @@ $roboto: 'Roboto', sans-serif;
     }
 }
 
-@media screen and (max-width:800) {
-    .header-social{
-        display: flex;
-        width: 30px !important;
-        a{
-            width: 30px;
-        }
-    }
-}

@@ -479,13 +479,4 @@
   .active, .dot:hover {
     background-color: #111111;
   }
-}
-@media screen and (max-width: 800) {
-  .header-social {
-    display: flex;
-    width: 30px !important;
-  }
-  .header-social a {
-    width: 30px;
-  }
 }/*# sourceMappingURL=media.css.map */
