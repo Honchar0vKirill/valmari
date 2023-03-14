@@ -36,7 +36,6 @@ $roboto: 'Roboto', sans-serif;
     display: none !important;
 }
 body {
-    overflow-x: hidden;
     hr {
         height: 67px;
         background: #D9D9D9;
@@ -394,6 +393,10 @@ p{
 .info{
     display: none;
 }
+.slider-mobile{
+    display: flex !important;
+    flex-direction: column;
+}
 .logo-desktop{
     display: none;
 }
@@ -510,6 +513,14 @@ footer{
 iframe{
     width: 200px;
 }
+.ftr-head{
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
 }
 .slider-mobile{
     display: flex;
@@ -563,4 +574,40 @@ transition: background-color 0.6s ease;
 .active, .dot:hover {
 background-color: #111111;
 }
-
+@media screen and (max-width: 400px){
+    .promo-text{
+        margin-left: 7%;
+    }
+    .main-promo-text{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;   
+    }
+    .promo-text-details{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #55A630;        
+    }
+    
+    .slider-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .ftr-head{
+        h1{
+            font-size: 15px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+    iframe{
+        width: 150px;
+    }
+}
